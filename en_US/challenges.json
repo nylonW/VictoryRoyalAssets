@@ -1,0 +1,217 @@
+[
+  {
+    "week": {
+      "name": "Week 1",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal damage with Sniper Rifles to opponents",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Search Chest in Haunted Hills",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Use a Port-a-Fort",
+          "progress": "1",
+          "reward": "5"
+        },
+        {
+          "mission": "Search F-O-R-T-N-I-T-E Letters",
+          "progress": "8",
+          "reward": "5"
+        },
+        {
+          "mission": "Follow the treasure map found in Tomato Town",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Pistol Eliminations",
+          "progress": "3",
+          "reward": "10"
+        },
+        {
+          "mission": "Eliminate opponents in Flush Factory",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Week 2",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Search Chests in Greasy Grove",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Consume Hop Rocks",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Deal damage with Suppressed Weapons to opponents",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Dance in front of different film cameras",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Search between a Scarecrow, Pink Hotrod, and a Big Screen",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Explosive Weapon Eliminations",
+          "progress": "3",
+          "reward": "10"
+        },
+        {
+          "mission": "Eliminate opponents in Tomato Town",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Week 3",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal damage with Pistols to opponents",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Search Chests in Lonely Lodge",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Search Rubber Duckies",
+          "progress": "10",
+          "reward": "5"
+        },
+        {
+          "mission": "Follow the treasure map found in Salty Springs",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Sniper Rifle Eliminations",
+          "progress": "2",
+          "reward": "10"
+        },
+        {
+          "mission": "Eliminate opponents in Tilted Towers",
+          "progress": "3",
+          "reward": "10"
+        },
+        {
+          "mission": "Revive Players",
+          "progress": "5",
+          "reward": "5"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Week 4",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal damage with Assault Rifles to opponents",
+          "progress": "1000",
+          "reward": "5"
+        },
+        {
+          "mission": "Search Chests in Wailing Woods",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Search 7 Ammo Boxes in a single match",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Visit the center of different Storm Circles in a single match",
+          "progress": "3",
+          "reward": "5"
+        },
+        {
+          "mission": "Search between a Bench, Ice Cream Truck and a Helicopter",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Trap Eliminations",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Eliminate opponents in Snobby Shores",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Week 5",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal damage with SMGs to opponents",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Search Chests in Dusty Divot",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Use a jetpack",
+          "progress": "1",
+          "reward": "5"
+        },
+        {
+          "mission": "Search Gravity Stones",
+          "progress": "3",
+          "reward": "5"
+        },
+        {
+          "mission": "Follow the treasure map found in Greasy Grove",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Minigun or LMG Eliminations",
+          "progress": "2",
+          "reward": "10"
+        },
+        {
+          "mission": "Eliminate opponents in Lucky Landing",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  }
+]
