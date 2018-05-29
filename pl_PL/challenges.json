@@ -1,0 +1,217 @@
+[
+  {
+    "week": {
+      "name": "Tydzień 1",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom z karabinów snajperskich",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj skrzynie na Widmowych Wzgórzach",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Użyj Fortu Kieszonkowego",
+          "progress": "1",
+          "reward": "5"
+        },
+        {
+          "mission": "Poszukaj liter F-O-R-T-N-I-T-E",
+          "progress": "8",
+          "reward": "5"
+        },
+        {
+          "mission": "Udaj się śladem mapy skarbów z Pomidorowego Przysiółka",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Likwidacje (pistolet)",
+          "progress": "3",
+          "reward": "10"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Spawalni Spłuczek",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Tydzień 2",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Przeszukaj skrzynie w Lepkim Lasku",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Użyj skokoskał",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Zadaj obrażenia przeciwnikom z broni z tłumikiem",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Zatańcz przed różnymi kamerami",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Szukaj między strachem na wróble, różowym hotrodem i dużym ekranem",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Likwidacje (broń wybuchowa)",
+          "progress": "3",
+          "reward": "10"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Pomidorowym Przysiółku",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Tydzień 3",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom z pistoletów",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Samotnym Schronisku",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj gumowe kaczuszki",
+          "progress": "10",
+          "reward": "5"
+        },
+        {
+          "mission": "Udaj się śladem mapy skarbów ze Słonych Strzech",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Likwidacje (karabin snajperski)",
+          "progress": "2",
+          "reward": "10"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Wykrzywionych Wieżach",
+          "progress": "3",
+          "reward": "10"
+        },
+        {
+          "mission": "Ożyw graczy",
+          "progress": "5",
+          "reward": "5"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Tydzień 4",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom z karabinów szturmowych",
+          "progress": "1000",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Płaczączej Puszczy",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj 7 pojemników z amunicją w jednej grze",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Odwiedź środek różnych kręgów burzy w trakcie jednej gry",
+          "progress": "3",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj obszar pomiędzy ławką, samochodem-lodziarnią a helikopterem",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Likwidacje (pułapki)",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Butnym Brzegu",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Tydzień 5",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom z broni z tłumikiem",
+          "progress": "500",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Wypasionej Wyrwie",
+          "progress": "7",
+          "reward": "5"
+        },
+        {
+          "mission": "Użyj plecaka odrzutowego",
+          "progress": "1",
+          "reward": "5"
+        },
+        {
+          "mission": "Przeszukaj kamienie grawitacyjne",
+          "progress": "3",
+          "reward": "5"
+        },
+        {
+          "mission": "Udaj się śladem mapy skarbów z Lepkiego Lasku",
+          "progress": "1",
+          "reward": "10"
+        },
+        {
+          "mission": "Likwidacje (Minigun lub LKM)",
+          "progress": "2",
+          "reward": "10"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Pagodach Pomyślności",
+          "progress": "3",
+          "reward": "10"
+        }
+      ]
+    }
+  }
+]
