@@ -219,22 +219,15 @@
         {
           "mission": "Użyj automatu do sprzedaży przedmiotów",
           "progress": "3",
-<<<<<<< HEAD
           "reward": "5",
 		  "id": "30"
-=======
-          "reward": "5"
->>>>>>> d196469b8867503891998b5e754af2b14f490d3e
         },
         {
           "mission": "Tańcz z innymi, aby wznieść disco-kulę w pobliżu Zalewu Zdobyczy",
           "progress": "1",
-<<<<<<< HEAD
           "reward": "5",
 		  "id": "31"
-=======
           "reward": "5"
->>>>>>> d196469b8867503891998b5e754af2b14f490d3e
         },
         {
           "mission": "Udaj się śladem mapy skarbów z Lepkiego Lasku",
