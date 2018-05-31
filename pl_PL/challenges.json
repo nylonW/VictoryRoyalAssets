@@ -177,7 +177,7 @@
       "available": "true",
       "challenges": [
         {
-          "mission": "Zadaj obrażenia przeciwnikom z broni z tłumikiem",
+          "mission": "Zadaj obrażenia przeciwnikom z pistoletów maszynowych",
           "progress": "500",
           "reward": "5"
         },
@@ -187,13 +187,13 @@
           "reward": "5"
         },
         {
-          "mission": "Użyj plecaka odrzutowego",
-          "progress": "1",
+          "mission": "Użyj automatu do sprzedaży przedmiotów",
+          "progress": "3",
           "reward": "5"
         },
         {
-          "mission": "Przeszukaj kamienie grawitacyjne",
-          "progress": "3",
+          "mission": "Tańcz z innymi, aby wznieść disco-kulę w pobliżu Zalewu Zdobyczy",
+          "progress": "1",
           "reward": "5"
         },
         {
@@ -202,7 +202,7 @@
           "reward": "10"
         },
         {
-          "mission": "Likwidacje (Minigun lub LKM)",
+          "mission": "Likwidacje (minigun lub LKM)",
           "progress": "2",
           "reward": "10"
         },
