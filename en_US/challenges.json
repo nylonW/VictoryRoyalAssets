@@ -248,5 +248,55 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Week 6",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Search Supply Drops",
+          "progress": "3",
+          "reward": "5",
+		  "id": "35"
+        },
+        {
+          "mission": "Deal damage with Shotguns to opponents",
+          "progress": "1000",
+          "reward": "5",
+		  "id": "36"
+        },
+        {
+          "mission": "Search Chests in Loot Lake",
+          "progress": "7",
+          "reward": "5",
+		  "id": "37"
+        },
+        {
+          "mission": "Spray over different Carbide or Omega Posters",
+          "progress": "7",
+          "reward": "5",
+		  "id": "38"
+        },
+        {
+          "mission": "Search between a Playground, Campsite, and a Footprint",
+          "progress": "1",
+          "reward": "10",
+		  "id": "39"
+        },
+        {
+          "mission": "SMG Eliminations",
+          "progress": "3",
+          "reward": "10",
+		  "id": "40"
+        },
+        {
+          "mission": "Eliminate opponents in Retail Row",
+          "progress": "3",
+          "reward": "10",
+		  "id": "41"
+        }
+      ]
+    }
   }
 ]
