@@ -348,5 +348,55 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Tydzień 8",
+      "available": "false",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom w głowę",
+          "progress": "250",
+          "reward": "5",
+          "id": "49"
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Słonych Strzechach",
+          "progress": "7",
+          "reward": "5",
+          "id": "50"
+        },
+        {
+          "mission": "Przeszukaj skrzynie w jednym meczu",
+          "progress": "7",
+          "reward": "5",
+          "id": "51"
+        },
+        {
+          "mission": "(Do ustalenia)",
+          "progress": "1",
+          "reward": "5",
+          "id": "52"
+        },
+        {
+          "mission": "Szukaj między...",
+          "progress": "1",
+          "reward": "10",
+          "id": "53"
+        },
+        {
+          "mission": "Likwidacje (Broń z tłumikiem)",
+          "progress": "5",
+          "reward": "10",
+          "id": "54"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Przyjemnym Parku",
+          "progress": "3",
+          "reward": "10",
+          "id": "55"
+        }
+      ]
+    }
   }
 ]
