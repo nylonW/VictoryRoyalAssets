@@ -355,7 +355,7 @@
       "available": "false",
       "challenges": [
         {
-          "mission": "Zadaj obrażenia przeciwnikom w głowę",
+          "mission": "Zadaj przeciwnikom obrażenia od trafień w głowę",
           "progress": "250",
           "reward": "5",
           "id": "49"
@@ -373,13 +373,13 @@
           "id": "51"
         },
         {
-          "mission": "(Do ustalenia)",
+          "mission": "Przeszukaj głodne gnomy",
           "progress": "1",
           "reward": "5",
           "id": "52"
         },
         {
-          "mission": "Szukaj między...",
+          "mission": "Szukaj między misiem, kraterem i ładunkiem lodówek",
           "progress": "1",
           "reward": "10",
           "id": "53"
