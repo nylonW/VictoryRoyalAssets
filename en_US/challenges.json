@@ -352,7 +352,7 @@
   {
     "week": {
       "name": "Week 8",
-      "available": "false",
+      "available": "true",
       "challenges": [
         {
           "mission": "Deal Headshot Damage to opponents",
