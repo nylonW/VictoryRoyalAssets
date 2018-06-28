@@ -398,5 +398,55 @@
         }
       ]
     }
+  },
+{
+    "week": {
+      "name": "Week 9",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal damage with Explosive Weapons to opponents",
+          "progress": "500",
+          "reward": "5",
+          "id": "56"
+        },
+        {
+          "mission": "Search Chests in Moisty Mire",
+          "progress": "7",
+          "reward": "5",
+          "id": "57"
+        },
+        {
+          "mission": "Use a Shopping Cart",
+          "progress": "1",
+          "reward": "5",
+          "id": "58"
+        },
+        {
+          "mission": "Visit the center of Named Locations in a Single Match",
+          "progress": "4",
+          "reward": "5",
+          "id": "59"
+        },
+        {
+          "mission": "Follow the treasure map found in Haunted Hills",
+          "progress": "1",
+          "reward": "10",
+          "id": "60"
+        },
+        {
+          "mission": "Shotgun Eliminations",
+          "progress": "4",
+          "reward": "10",
+          "id": "61"
+        },
+        {
+          "mission": "Eliminate opponents in Anarchy Acres",
+          "progress": "3",
+          "reward": "10",
+          "id": "62"
+        }
+      ]
+    }
   }
 ]
