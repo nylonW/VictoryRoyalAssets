@@ -398,5 +398,55 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Tydzień 9",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom z broni wybuchowej",
+          "progress": "500",
+          "reward": "5",
+          "id": "56"
+        },
+        {
+          "mission": "Przeszukaj skrzynie na Mokrych Moczarach",
+          "progress": "7",
+          "reward": "5",
+          "id": "57"
+        },
+        {
+          "mission": "Użyj wózka na zakupy",
+          "progress": "1",
+          "reward": "5",
+          "id": "58"
+        },
+        {
+          "mission": "Odwiedź centrum różnych nazwanych miejs w trakcie jednej gry",
+          "progress": "4",
+          "reward": "5",
+          "id": "59"
+        },
+        {
+          "mission": "Kieruj się mapą skarbu z Widmowych Wzgórz",
+          "progress": "1",
+          "reward": "10",
+          "id": "60"
+        },
+        {
+          "mission": "Likwidacje (strzelba)",
+          "progress": "4",
+          "reward": "10",
+          "id": "61"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Akrach Anarchii",
+          "progress": "3",
+          "reward": "10",
+          "id": "62"
+        }
+      ]
+    }
   }
 ]
