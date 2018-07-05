@@ -448,5 +448,55 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Tydzień 10",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Przeszukaj skrzynie w Rozdrożach Rupieci",
+          "progress": "7",
+          "reward": "5",
+          "id": "57"
+        },
+        {
+          "mission": "Uszkodź budowle przeciwnika",
+          "progress": "5000",
+          "reward": "5",
+          "id": "58"
+        },
+        {
+          "mission": "Przeszukaj skrzynkę, pojemnik z amunicją i zrzut zaopatrzenia w jednym meczu",
+          "progress": "3",
+          "reward": "5",
+          "id": "59"
+        },
+        {
+          "mission": "Przeleć przez okręgi w trakcie spadku",
+          "progress": "20",
+          "reward": "5",
+          "id": "60"
+        },
+        {
+          "mission": "Szukaj między tytułami filmów",
+          "progress": "1",
+          "reward": "10",
+          "id": "61"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników",
+          "progress": "10",
+          "reward": "10",
+          "id": "62"
+        },
+        {
+          "mission": "Zlikwiduj przeciwników na Zgubnych Ziemiach",
+          "progress": "3",
+          "reward": "10",
+          "id": "63"
+        }
+      ]
+    }
   }
 ]
