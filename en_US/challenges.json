@@ -448,5 +448,55 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Week 10",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Search Chests in Junk Junction",
+          "progress": "7",
+          "reward": "5",
+          "id": "63"
+        },
+        {
+          "mission": "Deal damage to opponents structures",
+          "progress": "5000",
+          "reward": "5",
+          "id": "64"
+        },
+        {
+          "mission": "Search a Chest, Ammo Box & Supply Drop in a single match",
+          "progress": "3",
+          "reward": "5",
+          "id": "65"
+        },
+        {
+          "mission": "Skydive through floating Rings",
+          "progress": "20",
+          "reward": "5",
+          "id": "66"
+        },
+        {
+          "mission": "Search between movie titles",
+          "progress": "1",
+          "reward": "10",
+          "id": "67"
+        },
+        {
+          "mission": "Eliminate Opponents",
+          "progress": "10",
+          "reward": "10",
+          "id": "68"
+        },
+        {
+          "mission": "Eliminate opponents in Fatal Fields",
+          "progress": "3",
+          "reward": "10",
+          "id": "69"
+        }
+      ]
+    }
   }
 ]
