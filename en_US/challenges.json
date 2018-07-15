@@ -8,43 +8,50 @@
           "mission": "Deal damage with SMGs to opponents",
           "progress": "500",
           "reward": "5",
-          "id": "100"
+          "id": "100",
+          "isOnMap": false
         },
         {
           "mission": "Search a Supply Llama",
           "progress": "1",
           "reward": "5",
           "id": "101"
+          "isOnMap": false
         },
         {
           "mission": "Clinger, Stink Bomb, or Grenade eliminations",
           "progress": "3",
           "reward": "10",
-          "id": "102"
+          "id": "102",
+          "isOnMap": false
         },
         {
           "mission": "Search Chests in Snobby Shores",
           "progress": "7",
           "reward": "5",
-          "id": "103"
+          "id": "103",
+          "isOnMap": false
         },
         {
           "mission": "Search floating Lightning Bolts",
           "progress": "7",
           "reward": "5",
-          "id": "104"
+          "id": "104",
+          "isOnMap": true
         },
         {
           "mission": "Follow the treasure map found in Risky Reels",
           "progress": "1",
           "reward": "10",
-          "id": "105"
+          "id": "105",
+          "isOnMap": false
         },
         {
           "mission": "Eliminate opponents in Retail Row",
           "progress": "3",
           "reward": "10",
-          "id": "106"
+          "id": "106",
+          "isOnMap": false
         }
       ]
     }
