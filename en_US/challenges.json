@@ -63,7 +63,7 @@
       "challenges": [
         {
           "mission": "Deal damage with Assault Rifles to opponents",
-          "progress": "100",
+          "progress": "1000",
           "reward": "5",
           "id": "107",
           "isOnMap": false
