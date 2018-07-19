@@ -48,5 +48,62 @@
         }
       ]
     }
+  },
+    {
+    "week": {
+      "name": "Week 2",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom z karabinów szturmowych",
+          "progress": "1000",
+          "reward": "5",
+          "id": "107",
+          "isOnMap": false
+        },
+        {
+          "mission": "Przeszukaj pojemniki z amunicją",
+          "progress": "7",
+          "reward": "5",
+          "id": "108",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Oazie Odpoczynku",
+          "progress": "3",
+          "reward": "10",
+          "id": "109",
+          "isOnMap": true
+        },
+        {
+          "mission": "Traf do kosza na różnych boiskach",
+          "progress": "5",
+          "reward": "5",
+          "id": "110",
+          "isOnMap": false
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Zalewie Zdobyczy",
+          "progress": "7",
+          "reward": "5",
+          "id": "111",
+          "isOnMap": true
+        },
+        {
+          "mission": "Szukaj między oazą, łukiem skalnym a dinozaurami",
+          "progress": "1",
+          "reward": "10",
+          "id": "112",
+          "isOnMap": true
+        },
+        {
+          "mission": "Likwidacje (snajperka)",
+          "progress": "2",
+          "reward": "10",
+          "id": "113",
+          "isOnMap": false
+        }
+      ]
+    }
   }
 ]
