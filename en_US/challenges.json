@@ -112,5 +112,38 @@
         }
       ]
     }
+  },
+    {
+    "week": {
+      "name": "🎂 Birthday Challenges! 🎂",
+      "available": "true",
+      "birthday": "true",
+      "challenges": [
+        {
+          "mission": "Play matches",
+          "progress": "14",
+          "reward": "5,000",
+          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/xpimage.png"
+          "id": "114",
+          "isOnMap": false
+        },
+        {
+          "mission": "Deal damage to opponents",
+          "progress": "1000",
+          "reward": "0",
+          "url": "" 
+          "id": "115",
+          "isOnMap": false
+        },
+        {
+          "mission": "Dance in front of different Birthday Cakes",
+          "progress": "10",
+          "reward": "0",
+          "item": "spray",
+          "id": "116",
+          "isOnMap": false
+        }
+      ]
+    }
   }
 ]
