@@ -123,7 +123,7 @@
           "mission": "Play matches",
           "progress": "14",
           "reward": "5,000",
-          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/xpimage.png"
+          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/xpimage.png",
           "id": "114",
           "isOnMap": false
         },
@@ -131,7 +131,7 @@
           "mission": "Deal damage to opponents",
           "progress": "1000",
           "reward": "0",
-          "url": "" 
+          "url": "",
           "id": "115",
           "isOnMap": false
         },
