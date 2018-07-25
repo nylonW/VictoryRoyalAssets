@@ -105,5 +105,38 @@
         }
       ]
     }
+  },
+    {
+    "week": {
+      "name": "🎂 Wyzwania urodzinowe! 🎂",
+      "available": "true",
+      "birthday": "true",
+      "challenges": [
+        {
+          "mission": "Zagraj mecze",
+          "progress": "14",
+          "reward": "5,000",
+          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/xpimage.png",
+          "id": "114",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zadaj obrażenia przeciwnikom",
+          "progress": "1000",
+          "reward": "0",
+          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/sticker.png",
+          "id": "115",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zatańcz przed różnymi tortami urodzinowymi",
+          "progress": "10",
+          "reward": "0",
+          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/image.png",
+          "id": "116",
+          "isOnMap": false
+        }
+      ]
+    }
   }
 ]
