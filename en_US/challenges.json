@@ -130,7 +130,7 @@
         {
           "mission": "Deal damage to opponents",
           "progress": "1000",
-          "reward": "0",
+          "reward": "1",
           "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/sticker.png",
           "id": "115",
           "isOnMap": false
@@ -138,7 +138,7 @@
         {
           "mission": "Dance in front of different Birthday Cakes",
           "progress": "10",
-          "reward": "0",
+          "reward": "1",
           "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/image.png",
           "id": "116",
           "isOnMap": false
