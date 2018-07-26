@@ -138,5 +138,62 @@
         }
       ]
     }
+  },
+    {
+    "week": {
+      "name": "Week 3",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj obrażenia przeciwnikom w jednej grze",
+          "progress": "500",
+          "reward": "5",
+          "id": "117",
+          "isOnMap": false
+        },
+        {
+          "mission": "Skorzystaj z panelu skokowego",
+          "progress": "1",
+          "reward": "5",
+          "id": "118",
+          "isOnMap": false
+        },
+        {
+          "mission": "Kieruj się mapą skarbów ze Spawalni Spłuczek",
+          "progress": "1",
+          "reward": "10",
+          "id": "119",
+          "isOnMap": true
+        },
+        {
+          "mission": "Przeszukaj skrzynie na Zgubnych Ziemiach",
+          "progress": "7",
+          "reward": "5",
+          "id": "120",
+          "isOnMap": true
+        },
+        {
+          "mission": "Zestrzel rzutka w różnych miejscach",
+          "progress": "5",
+          "reward": "5",
+          "id": "121",
+          "isOnMap": true
+        },
+        {
+          "mission": "Zlikwiduj przeciwników na Widmowych Wzgórzach",
+          "progress": "5",
+          "reward": "10",
+          "id": "122",
+          "isOnMap": true
+        },
+        {
+          "mission": "Likwidacje (broń wybuchowa)",
+          "progress": "3",
+          "reward": "10",
+          "id": "123",
+          "isOnMap": false
+        }
+      ]
+    }
   }
 ]
