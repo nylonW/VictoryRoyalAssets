@@ -195,5 +195,62 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Week 4",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zbuduj struktury",
+          "progress": "250",
+          "reward": "5",
+          "id": "124",
+          "isOnMap": false
+        },
+        {
+          "mission": "Przeskocz przez płonące obręcze wózkiem sklepowym lub golfowym",
+          "progress": "5",
+          "reward": "5",
+          "id": "125",
+          "isOnMap": true
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Wypasionej Wyrwie",
+          "progress": "3",
+          "reward": "10",
+          "id": "126",
+          "isOnMap": true
+        },
+        {
+          "mission": "Zadaj obrażenia przeciwnikom ze snajperki",
+          "progress": "500",
+          "reward": "5",
+          "id": "127",
+          "isOnMap": false
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Spawalni Spłuczek",
+          "progress": "5",
+          "reward": "5",
+          "id": "128",
+          "isOnMap": true
+        },
+        {
+          "mission": "Szukaj między stacją benzynową, boiskiem i górą kaskaderską",
+          "progress": "1",
+          "reward": "10",
+          "id": "129",
+          "isOnMap": true
+        },
+        {
+          "mission": "Likwidacje (pistolet)",
+          "progress": "3",
+          "reward": "10",
+          "id": "130",
+          "isOnMap": false
+        }
+      ]
+    }
   }
 ]
