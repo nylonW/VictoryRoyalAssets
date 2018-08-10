@@ -259,5 +259,62 @@
 				}
 			]
 		}
-	}
+	},
+    {
+    "week": {
+      "name": "Week 5",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Search chests in Junk Junction",
+          "progress": "7",
+          "reward": "5",
+          "id": "131",
+          "isOnMap": true
+        },
+        {
+          "mission": "Use Rift Portals",
+          "progress": "3",
+          "reward": "5",
+          "id": "132",
+          "isOnMap": true
+        },
+        {
+          "mission": "Eliminate opponents in a single match",
+          "progress": "3",
+          "reward": "10",
+          "id": "132",
+          "isOnMap": false
+        },
+        {
+          "mission": "Deal damage to players with a Clinger, Stink Bomb or Grenade",
+          "progress": "300",
+          "reward": "5",
+          "id": "132",
+          "isOnMap": false
+        },
+        {
+          "mission": "Hit a gold ball from tee to green on different holed",
+          "progress": "5",
+          "reward": "5",
+          "id": "133",
+          "isOnMap": true
+        },
+        {
+          "mission": "Follow the treasure map found in Snobby Shores",
+          "progress": "1",
+          "reward": "10",
+          "id": "134",
+          "isOnMap": true
+        },
+        {
+          "mission": "Eliminate opponents in Shifty Shafts",
+          "progress": "3",
+          "reward": "10",
+          "id": "135",
+          "isOnMap": true
+        }
+      ]
+    }
+  }
 ]
