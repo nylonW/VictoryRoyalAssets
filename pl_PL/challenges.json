@@ -255,32 +255,32 @@
   },
     {
     "week": {
-      "name": "Week 5",
+      "name": "Tydzień 5",
       "available": "true",
       "challenges": [
         {
-          "mission": "Search chests in Junk Junction",
+          "mission": "Przeszukaj skrzynie na Rozdrożach Rupieci",
           "progress": "7",
           "reward": "5",
           "id": "131",
           "isOnMap": true
         },
         {
-          "mission": "Use Rift Portals",
+          "mission": "Użyj portali szczelin",
           "progress": "3",
           "reward": "5",
           "id": "132",
           "isOnMap": true
         },
         {
-          "mission": "Eliminate opponents in a single match",
+          "mission": "Zlikwiduj przeciwników w jednej grze",
           "progress": "3",
           "reward": "10",
           "id": "132",
           "isOnMap": false
         },
         {
-          "mission": "Deal damage to players with a Clinger, Stink Bomb or Grenade",
+          "mission": "Zadaj obrażenia z Czepiaka, Śmierdzibomby lub Granatu",
           "progress": "300",
           "reward": "5",
           "id": "132",
@@ -294,14 +294,14 @@
           "isOnMap": true
         },
         {
-          "mission": "Follow the treasure map found in Snobby Shores",
+          "mission": "Kieruj się mapą skarbów z Butnego Brzegu",
           "progress": "1",
           "reward": "10",
           "id": "134",
           "isOnMap": true
         },
         {
-          "mission": "Eliminate opponents in Shifty Shafts",
+          "mission": "Zlikwiduj przeciwników w Szemranych Szybach",
           "progress": "3",
           "reward": "10",
           "id": "135",
