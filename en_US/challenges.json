@@ -294,7 +294,7 @@
           "isOnMap": false
         },
         {
-          "mission": "Hit a gold ball from tee to green on different holed",
+          "mission": "Hit a gold ball from tee to green on different holes",
           "progress": "5",
           "reward": "5",
           "id": "133",
@@ -312,6 +312,63 @@
           "progress": "3",
           "reward": "10",
           "id": "135",
+          "isOnMap": true
+        }
+      ]
+    }
+  },
+	{
+    "week": {
+      "name": "Week 6",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal Headshot Damage to opponents",
+          "progress": "500",
+          "reward": "5",
+          "id": "132",
+          "isOnMap": false
+        },
+        {
+          "mission": "Harvest building resources with a pickaxe",
+          "progress": "3000",
+          "reward": "5",
+          "id": "133",
+          "isOnMap": false
+        },
+        {
+          "mission": "Search where the Stone Heads are looking",
+          "progress": "1",
+          "reward": "10",
+          "id": "134",
+          "isOnMap": true
+        },
+        {
+          "mission": "Search Chests in Lonely Lodge",
+          "progress": "7",
+          "reward": "5",
+          "id": "135",
+          "isOnMap": true
+        },
+        {
+          "mission": "Complete timed trials",
+          "progress": "5",
+          "reward": "5",
+          "id": "136",
+          "isOnMap": true
+        },
+        {
+          "mission": "Minigun or Light Machine Gun Eliminations",
+          "progress": "2",
+          "reward": "10",
+          "id": "137",
+          "isOnMap": false
+        },
+        {
+          "mission": "Eliminate opponents in Tilted Towers",
+          "progress": "3",
+          "reward": "10",
+          "id": "138",
           "isOnMap": true
         }
       ]
