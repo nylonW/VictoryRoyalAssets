@@ -309,5 +309,62 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Tydzień 6",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj przeciwnikom obrażenia od trafień w głowę",
+          "progress": "500",
+          "reward": "5",
+          "id": "132",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zbierz zasoby budowlane kilofem",
+          "progress": "3000",
+          "reward": "5",
+          "id": "133",
+          "isOnMap": false
+        },
+        {
+          "mission": "Szukaj tam, gdzie patrzą kamienne głowy",
+          "progress": "1",
+          "reward": "10",
+          "id": "134",
+          "isOnMap": true
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Samotnum Schronisku",
+          "progress": "7",
+          "reward": "5",
+          "id": "135",
+          "isOnMap": true
+        },
+        {
+          "mission": "Ukończ próby na czas",
+          "progress": "5",
+          "reward": "5",
+          "id": "136",
+          "isOnMap": true
+        },
+        {
+          "mission": "Likwidacje (minigun lub LKM)",
+          "progress": "2",
+          "reward": "10",
+          "id": "137",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Wykrzywionych Wieżach",
+          "progress": "3",
+          "reward": "10",
+          "id": "138",
+          "isOnMap": true
+        }
+      ]
+    }
   }
 ]
