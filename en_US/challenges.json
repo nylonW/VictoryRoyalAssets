@@ -56,7 +56,7 @@
       ]
     }
   },
-    {
+  {
     "week": {
       "name": "Week 2",
       "available": "true",
@@ -113,9 +113,9 @@
       ]
     }
   },
-    {
+  {
     "week": {
-      "name": "🎂 Birthday Challenges! 🎂",
+      "name": "\ud83c\udf82 Birthday Challenges! \ud83c\udf82",
       "available": "true",
       "birthday": "true",
       "challenges": [
@@ -123,7 +123,7 @@
           "mission": "Play matches",
           "progress": "14",
           "reward": "5,000",
-          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/xpimage.png",
+          "url": "https:\/\/github.com\/nylonW\/VictoryRoyalAssets\/raw\/master\/images\/xpimage.png",
           "id": "114",
           "isOnMap": false
         },
@@ -131,7 +131,7 @@
           "mission": "Deal damage to opponents",
           "progress": "1000",
           "reward": "1",
-          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/sticker.png",
+          "url": "https:\/\/github.com\/nylonW\/VictoryRoyalAssets\/raw\/master\/images\/sticker.png",
           "id": "115",
           "isOnMap": false
         },
@@ -139,14 +139,14 @@
           "mission": "Dance in front of different Birthday Cakes",
           "progress": "10",
           "reward": "1",
-          "url": "https://github.com/nylonW/VictoryRoyalAssets/raw/master/images/image.png",
+          "url": "https:\/\/github.com\/nylonW\/VictoryRoyalAssets\/raw\/master\/images\/image.png",
           "id": "116",
           "isOnMap": false
         }
       ]
     }
   },
-    {
+  {
     "week": {
       "name": "Week 3",
       "available": "true",
@@ -203,64 +203,64 @@
       ]
     }
   },
-	{
-		"week": {
-			"name": "Week 4",
-			"available": "true",
-			"challenges": [
+  {
+    "week": {
+      "name": "Week 4",
+      "available": "true",
+      "challenges": [
         {
-					"mission": "Build Structures",
-					"progress": "250",
-					"reward": "5",
-					"id": "124",
-					"isOnMap": false
-				},
-				{
-					"mission": "Jump through flaming hoops with Shopping Cart or ATK",
-					"progress": "5",
-					"reward": "5",
-					"id": "125",
-					"isOnMap": true
-				},
-				{
-					"mission": "Eliminate opponents in Dusty Divot",
-					"progress": "3",
-					"reward": "10",
-					"id": "126",
-					"isOnMap": true
-				},
-				{
-					"mission": "Deal damage with Sniper Rifles to opponents",
-					"progress": "500",
-					"reward": "5",
-					"id": "127",
-					"isOnMap": false
-				},
-				{
-					"mission": "Search Chests in Flush Factory",
-					"progress": "5",
-					"reward": "5",
-					"id": "128",
-					"isOnMap": true
-				},
-				{
-					"mission": "Search between a gas station, soccer pitch and Stunt Mountain",
-					"progress": "1",
-					"reward": "10",
-					"id": "129",
-					"isOnMap": true
-				},
-				{
-					"mission": "Pistol Emilinations",
-					"progress": "3",
-					"reward": "10",
-					"id": "130",
-					"isOnMap": false
-				}
-			]
-		}
-	},
-    {
+          "mission": "Build Structures",
+          "progress": "250",
+          "reward": "5",
+          "id": "124",
+          "isOnMap": false
+        },
+        {
+          "mission": "Jump through flaming hoops with Shopping Cart or ATK",
+          "progress": "5",
+          "reward": "5",
+          "id": "125",
+          "isOnMap": true
+        },
+        {
+          "mission": "Eliminate opponents in Dusty Divot",
+          "progress": "3",
+          "reward": "10",
+          "id": "126",
+          "isOnMap": true
+        },
+        {
+          "mission": "Deal damage with Sniper Rifles to opponents",
+          "progress": "500",
+          "reward": "5",
+          "id": "127",
+          "isOnMap": false
+        },
+        {
+          "mission": "Search Chests in Flush Factory",
+          "progress": "5",
+          "reward": "5",
+          "id": "128",
+          "isOnMap": true
+        },
+        {
+          "mission": "Search between a gas station, soccer pitch and Stunt Mountain",
+          "progress": "1",
+          "reward": "10",
+          "id": "129",
+          "isOnMap": true
+        },
+        {
+          "mission": "Pistol Emilinations",
+          "progress": "3",
+          "reward": "10",
+          "id": "130",
+          "isOnMap": false
+        }
+      ]
+    }
+  },
+  {
     "week": {
       "name": "Week 5",
       "available": "true",
@@ -317,7 +317,7 @@
       ]
     }
   },
-	{
+  {
     "week": {
       "name": "Week 6",
       "available": "true",
@@ -374,7 +374,7 @@
       ]
     }
   },
-	{
+  {
     "week": {
       "name": "Week 7",
       "available": "true",
@@ -414,35 +414,35 @@
           "id": "143",
           "isOnMap": true
         },
-	      {
+        {
           "mission": "Stage 2: Search a Chest in Retail Row",
           "progress": "1",
           "reward": "1",
           "id": "144",
           "isOnMap": true
         },
-	 {
+        {
           "mission": "Stage 2: Search a Chest in Retail Row",
           "progress": "1",
           "reward": "1",
           "id": "145",
           "isOnMap": true
         },
-	      {
+        {
           "mission": "Stage 3: Search a chest in Lucky Landing",
           "progress": "1",
           "reward": "1",
           "id": "146",
           "isOnMap": true
         },
-	      {
+        {
           "mission": "Stage 4: Search a chest in Greasy Grove",
           "progress": "1",
           "reward": "1",
           "id": "147",
           "isOnMap": true
         },
-	      {
+        {
           "mission": "Stage 5: Search a chest in Paradise Palms",
           "progress": "1",
           "reward": "1",
