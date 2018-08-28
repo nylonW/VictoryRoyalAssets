@@ -373,5 +373,97 @@
         }
       ]
     }
+  },
+	{
+    "week": {
+      "name": "Week 7",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Visit different Named Locations in a single match",
+          "progress": "4",
+          "reward": "5",
+          "id": "139",
+          "isOnMap": false
+        },
+        {
+          "mission": "Search Supply Drops",
+          "progress": "3",
+          "reward": "5",
+          "id": "140",
+          "isOnMap": false
+        },
+        {
+          "mission": "SMG Eliminations",
+          "progress": "3",
+          "reward": "10",
+          "id": "141",
+          "isOnMap": false
+        },
+        {
+          "mission": "Deal damage to opponents structures with Remote Explosives",
+          "progress": "8000",
+          "reward": "5",
+          "id": "142",
+          "isOnMap": false
+        },
+        {
+          "mission": "Stage 1: Search a Chest in Pleasant Park",
+          "progress": "1",
+          "reward": "1",
+          "id": "143",
+          "isOnMap": true
+        },
+	      {
+          "mission": "Stage 2: Search a Chest in Retail Row",
+          "progress": "1",
+          "reward": "1",
+          "id": "144",
+          "isOnMap": true
+        },
+	 {
+          "mission": "Stage 2: Search a Chest in Retail Row",
+          "progress": "1",
+          "reward": "1",
+          "id": "145",
+          "isOnMap": true
+        },
+	      {
+          "mission": "Stage 3: Search a chest in Lucky Landing",
+          "progress": "1",
+          "reward": "1",
+          "id": "146",
+          "isOnMap": true
+        },
+	      {
+          "mission": "Stage 4: Search a chest in Greasy Grove",
+          "progress": "1",
+          "reward": "1",
+          "id": "147",
+          "isOnMap": true
+        },
+	      {
+          "mission": "Stage 5: Search a chest in Paradise Palms",
+          "progress": "1",
+          "reward": "1",
+          "id": "148",
+          "isOnMap": true
+        },
+        {
+          "mission": "Follow the treasure map found in Dusty Divot",
+          "progress": "1",
+          "reward": "10",
+          "id": "149",
+          "isOnMap": true
+        },
+        {
+          "mission": "Eliminate opponents in Lazy Links",
+          "progress": "3",
+          "reward": "10",
+          "id": "150",
+          "isOnMap": true
+        }
+      ]
+    }
   }
 ]
