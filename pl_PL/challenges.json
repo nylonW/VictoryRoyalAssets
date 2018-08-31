@@ -366,5 +366,90 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Tydzień 7",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Odwiedź różne nazwane miejsca w trakcie jednej gry",
+          "progress": "4",
+          "reward": "5",
+          "id": "139",
+          "isOnMap": false
+        },
+        {
+          "mission": "Przeszukaj zrzuty zaopatrzenia",
+          "progress": "3",
+          "reward": "5",
+          "id": "140",
+          "isOnMap": false
+        },
+        {
+          "mission": "Likwidacje (pistolet maszynowy)",
+          "progress": "3",
+          "reward": "10",
+          "id": "141",
+          "isOnMap": false
+        },
+        {
+          "mission": "Uszkodź budowle przeciwnika za pomocą zdalnie odpalanych ładunków",
+          "progress": "8000",
+          "reward": "5",
+          "id": "142",
+          "isOnMap": false
+        },
+        {
+          "mission": "Etap 1: Przeszukaj skrzynię w Przyjemnym Parku",
+          "progress": "1",
+          "reward": "1",
+          "id": "143",
+          "isOnMap": true
+        },
+        {
+          "mission": "Etap 2: Przeszukaj skrzynię w Sklepowej Sadybie",
+          "progress": "1",
+          "reward": "1",
+          "id": "144",
+          "isOnMap": true
+        },
+        {
+          "mission": "Etap 3: Przeszukaj skrzynię w Pagodach Pomyślności",
+          "progress": "1",
+          "reward": "1",
+          "id": "146",
+          "isOnMap": true
+        },
+        {
+          "mission": "Etap 4: Przeszukaj skrzynię w Lepkim Lasku",
+          "progress": "1",
+          "reward": "1",
+          "id": "147",
+          "isOnMap": true
+        },
+        {
+          "mission": "Etap 1: Przeszukaj skrzynię w Oazie Odpoczynku",
+          "progress": "1",
+          "reward": "1",
+          "id": "148",
+          "isOnMap": true
+        },
+        {
+          "mission": "Podążaj mapą skarbów z Wypasionej Wyrwy",
+          "progress": "1",
+          "reward": "10",
+          "id": "149",
+          "isOnMap": true
+        },
+        {
+          "mission": "Zlikwiduj przeciwników w Golfowym Gniazdku",
+          "progress": "3",
+          "reward": "10",
+          "id": "150",
+          "isOnMap": true
+        }
+      ]
+    }
   }
 ]
