@@ -493,6 +493,13 @@
           "isOnMap": false
         },
         {
+          "mission": "Use Rift at different Rift spwan locations",
+          "progress": "1",
+          "reward": "1",
+          "id": "159",
+          "isOnMap": true
+        },
+        {
           "mission": "Search between three oversized seats",
           "progress": "1",
           "reward": "1",
