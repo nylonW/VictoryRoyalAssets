@@ -451,5 +451,76 @@
         }
       ]
     }
+  },
+{
+    "week": {
+      "name": "Tydzień 8",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Umieść pułapki",
+          "progress": "10",
+          "reward": "5",
+          "id": "151",
+          "isOnMap": false
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Płaczącej Puszczy",
+          "progress": "7",
+          "reward": "5",
+          "id": "152",
+          "isOnMap": true
+        },
+        {
+          "mission": "Likwidacje (strzelba)",
+          "progress": "4",
+          "reward": "10",
+          "id": "153",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zadaj obrażenia przeciwnikom kilofem",
+          "progress": "250",
+          "reward": "5",
+          "id": "154",
+          "isOnMap": false
+        },
+        {
+          "mission": "Użyj szczeliny w różnych miejscach otwarcia szczeliny",
+          "progress": "10",
+          "reward": "5",
+          "id": "155",
+          "isOnMap": true
+        },
+        {
+          "mission": "Szukaj między trzema dużymi siedzeniami",
+          "progress": "1",
+          "reward": "10",
+          "id": "159",
+          "isOnMap": true
+        },
+        {
+          "mission": "Etap 1: Zlikwiduj przeciwnika w Lepkim Lasku",
+          "progress": "1",
+          "reward": "3",
+          "id": "156",
+          "isOnMap": true
+        },
+        {
+          "mission": "Etap 2: Zlikwiduj przeciwnika w Samotnym Schronisku",
+          "progress": "1",
+          "reward": "3",
+          "id": "157",
+          "isOnMap": true
+        },
+        {
+          "mission": "Etap 3: Zlikwiduj przeciwnika w Zgubnych Ziemiach",
+          "progress": "1",
+          "reward": "4",
+          "id": "158",
+          "isOnMap": true
+        }
+      ]
+    }
   }
 ]
