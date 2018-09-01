@@ -458,5 +458,69 @@
         }
       ]
     }
+  },
+{
+    "week": {
+      "name": "Week 8",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Place Traps",
+          "progress": "10",
+          "reward": "5",
+          "id": "151",
+          "isOnMap": false
+        },
+        {
+          "mission": "Search Chests in Wailing Woods",
+          "progress": "7",
+          "reward": "5",
+          "id": "152",
+          "isOnMap": true
+        },
+        {
+          "mission": "Shotgun Eliminations",
+          "progress": "4",
+          "reward": "10",
+          "id": "153",
+          "isOnMap": false
+        },
+        {
+          "mission": "Deal damage with pickaxe to opponents",
+          "progress": "250",
+          "reward": "5",
+          "id": "154",
+          "isOnMap": false
+        },
+        {
+          "mission": "Search between three oversized seats",
+          "progress": "1",
+          "reward": "1",
+          "id": "155",
+          "isOnMap": true
+        },
+        {
+          "mission": "Stage 1: Eliminate opponent in Greasy Grove",
+          "progress": "1",
+          "reward": "3",
+          "id": "156",
+          "isOnMap": true
+        },
+        {
+          "mission": "Stage 2: Eliminate opponent in Lonely Lodge",
+          "progress": "1",
+          "reward": "3",
+          "id": "157",
+          "isOnMap": true
+        },
+        {
+          "mission": "Stage 1: Eliminate opponent in Fatal Fields",
+          "progress": "1",
+          "reward": "4",
+          "id": "158",
+          "isOnMap": true
+        }
+      ]
+    }
   }
 ]
