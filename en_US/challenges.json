@@ -529,5 +529,37 @@
         }
       ]
     }
+  },
+{
+    "week": {
+      "name": "Stakes Challenges",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Play matches of The Gateway",
+          "progress": "10",
+          "reward": "5,000",
+          "url": "https:\/\/github.com\/nylonW\/VictoryRoyalAssets\/raw\/master\/images\/xpimage.png",
+          "id": "159",
+          "isOnMap": false
+        },
+        {
+          "mission": "Deal damage to Jewel carrying opponents",
+          "progress": "500",
+          "reward": "1",
+          "url": "https:\/\/raw.githubusercontent.com\/nylonW\/VictoryRoyalAssets\/master\/images\/spraystakee.png",
+          "id": "160",
+          "isOnMap": false
+        },
+        {
+          "mission": "Pick up a Jewel in different matches of The Getaway",
+          "progress": "5",
+          "reward": "1",
+          "url": "https:\/\/image.fnbr.co\/skydive\/5b90ed6e262b40ece2c98387\/icon.png",
+          "id": "161",
+          "isOnMap": false
+        }
+      ]
+    }
   }
 ]
