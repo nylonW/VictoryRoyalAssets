@@ -579,7 +579,7 @@
           "progress": "150,000",
           "reward": "5",
           "id": "163",
-          "isOnMap": true
+          "isOnMap": false
         },
         {
           "mission": "Follow the treasure map found in Shifty Shafts",
@@ -614,6 +614,63 @@
           "progress": "3",
           "reward": "10",
           "id": "168",
+          "isOnMap": true
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Week 10",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Search Jigsaw Puzzles in basements",
+          "progress": "7",
+          "reward": "5",
+          "id": "169",
+          "isOnMap": false
+        },
+        {
+          "mission": "Consume Apple or Mushrooms",
+          "progress": "20",
+          "reward": "5",
+          "id": "169",
+          "isOnMap": false
+        },
+        {
+          "mission": "Eliminate Opponents",
+          "progress": "10",
+          "reward": "10",
+          "id": "170",
+          "isOnMap": false
+        },
+        {
+          "mission": "Search chests in Salty Springs",
+          "progress": "7",
+          "reward": "5",
+          "id": "171",
+          "isOnMap": true
+        },
+        {
+          "mission": "Deal Damage to opponents",
+          "progress": "5000",
+          "reward": "5",
+          "id": "172",
+          "isOnMap": false
+        },
+        {
+          "mission": "Search between a covered bridge, waterfall and the ninth green ",
+          "progress": "1",
+          "reward": "10",
+          "id": "173",
+          "isOnMap": true
+        },
+        {
+          "mission": "Stage 1: eliminate an opponent in Pleasant Park",
+          "progress": "1",
+          "reward": "3",
+          "id": "174",
           "isOnMap": true
         }
       ]
