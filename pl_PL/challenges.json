@@ -522,5 +522,119 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Tydzień 9",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Zadaj przeciwnikom obrażenia z broni wybuchowej",
+          "progress": "500",
+          "reward": "5",
+          "id": "162",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zdobywaj punkty za sztuczki w wózku sklepowym lub golfowym",
+          "progress": "150,000",
+          "reward": "5",
+          "id": "163",
+          "isOnMap": false
+        },
+        {
+          "mission": "Podążaj mapą skarbów z Szemranych Szybów",
+          "progress": "1",
+          "reward": "10",
+          "id": "164",
+          "isOnMap": true
+        },
+        {
+          "mission": "Przeszukaj po jednej skrzyni w Widmowych Wzgórzach, Szemranych Szybach, Golfowym Gniazdku, Wykrzywionych Wieżach i w Karkołomnym Kinie",
+          "progress": "1",
+          "reward": "5",
+          "id": "165",
+          "isOnMap": true
+        },
+        {
+          "mission": "Odwiedź różne kamienne głowy",
+          "progress": "7",
+          "reward": "5",
+          "id": "166",
+          "isOnMap": true
+        },
+        {
+          "mission": "Assault Rifle Eliminations",
+          "progress": "5",
+          "reward": "10",
+          "id": "167",
+          "isOnMap": false
+        },
+        {
+          "mission": "Eliminate opponents in Tomato Temple",
+          "progress": "3",
+          "reward": "10",
+          "id": "168",
+          "isOnMap": true
+        }
+      ]
+    }
+  },
+  {
+    "week": {
+      "name": "Week 10",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Poszukaj kawałków układanki w piwnicach",
+          "progress": "7",
+          "reward": "5",
+          "id": "169",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zjadaj jabłka lub grzyby",
+          "progress": "20",
+          "reward": "5",
+          "id": "169",
+          "isOnMap": false
+        },
+        {
+          "mission": "Zlikwiduj przeciwników",
+          "progress": "10",
+          "reward": "10",
+          "id": "170",
+          "isOnMap": false
+        },
+        {
+          "mission": "Przeszukaj skrzynie w Słonych Strzechach",
+          "progress": "7",
+          "reward": "5",
+          "id": "171",
+          "isOnMap": true
+        },
+        {
+          "mission": "Zadaj obrażenia przeciwnikom",
+          "progress": "5000",
+          "reward": "5",
+          "id": "172",
+          "isOnMap": false
+        },
+        {
+          "mission": "Szukaj między krytym mostemm, wodospadem i 9. dołkiem",
+          "progress": "1",
+          "reward": "10",
+          "id": "173",
+          "isOnMap": true
+        },
+        {
+          "mission": "Zlikwiduj po jednym przeciwniku w Przyjemnym Parku, Płaczącej Puszczy i Pagodach Pomyślności",
+          "progress": "1",
+          "reward": "3",
+          "id": "174",
+          "isOnMap": true
+        }
+      ]
+    }
   }
 ]
