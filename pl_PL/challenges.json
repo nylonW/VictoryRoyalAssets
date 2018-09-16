@@ -564,14 +564,14 @@
           "isOnMap": true
         },
         {
-          "mission": "Assault Rifle Eliminations",
+          "mission": "Likwidacje (karabin szturmowy)",
           "progress": "5",
-          "reward": "10",
+          "reward": "5",
           "id": "167",
           "isOnMap": false
         },
         {
-          "mission": "Eliminate opponents in Tomato Temple",
+          "mission": "Zlikwiduj Przeciwników w Pomidorowym Przybytku",
           "progress": "3",
           "reward": "10",
           "id": "168",
