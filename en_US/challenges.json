@@ -561,5 +561,62 @@
         }
       ]
     }
+  },
+  {
+    "week": {
+      "name": "Week 9",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal damage with Explosive Weapons to opponents",
+          "progress": "500",
+          "reward": "5",
+          "id": "162",
+          "isOnMap": false
+        },
+        {
+          "mission": "Get trick points in a shopping cart or ATK",
+          "progress": "150,000",
+          "reward": "5",
+          "id": "163",
+          "isOnMap": true
+        },
+        {
+          "mission": "Follow the treasure map found in Shifty Shafts",
+          "progress": "1",
+          "reward": "10",
+          "id": "164",
+          "isOnMap": true
+        },
+        {
+          "mission": "Stage 1: Search a Chest in Haunted Hills",
+          "progress": "1",
+          "reward": "1",
+          "id": "165",
+          "isOnMap": true
+        },
+        {
+          "mission": "Visit Different Stone Heads",
+          "progress": "7",
+          "reward": "5",
+          "id": "166",
+          "isOnMap": true
+        },
+        {
+          "mission": "Assault Rifle Eliminations",
+          "progress": "5",
+          "reward": "10",
+          "id": "167",
+          "isOnMap": false
+        },
+        {
+          "mission": "Eliminate opponents in Tomato Temple",
+          "progress": "3",
+          "reward": "10",
+          "id": "168",
+          "isOnMap": true
+        }
+      ]
+    }
   }
 ]
