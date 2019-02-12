@@ -1,6 +1,7 @@
 [
   {
     "category": "Assult Riffles",
+    "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
         "name": "R-301 Carbine",
@@ -13,6 +14,7 @@
   },
   {
     "category": "Submachine guns",
+    "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
         "name": "R-301 Carbine",
@@ -25,6 +27,7 @@
   },
   {
     "category": "Light machine guns",
+    "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
         "name": "R-301 Carbine",
@@ -37,6 +40,7 @@
   },
   {
     "category": "Sniper",
+    "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
         "name": "R-301 Carbine",
@@ -49,6 +53,7 @@
   },
   {
     "category": "Shotguns",
+    "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
         "name": "R-301 Carbine",
@@ -61,6 +66,7 @@
   },
   {
     "category": "Pistols",
+    "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
         "name": "R-301 Carbine",
