@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Assult Riffles",
+    "items": [
+      {
+        "name": "R-301 Carbine",
+        "body_damage": 14,
+        "head_damage": 14,
+        "description": "Full-auto and high accuracy",
+        "ammo": "Light"
+      }
+    ]
+  },
+  {
+    "category": "Submachine guns",
+    "items": [
+      {
+        "name": "R-301 Carbine",
+        "body_damage": 14,
+        "head_damage": 14,
+        "description": "Full-auto and high accuracy",
+        "ammo": "Light"
+      }
+    ]
+  },
+  {
+    "category": "Light machine guns",
+    "items": [
+      {
+        "name": "R-301 Carbine",
+        "body_damage": 14,
+        "head_damage": 14,
+        "description": "Full-auto and high accuracy",
+        "ammo": "Light"
+      }
+    ]
+  },
+  {
+    "category": "Sniper",
+    "items": [
+      {
+        "name": "R-301 Carbine",
+        "body_damage": 14,
+        "head_damage": 14,
+        "description": "Full-auto and high accuracy",
+        "ammo": "Light"
+      }
+    ]
+  },
+  {
+    "category": "Shotguns",
+    "items": [
+      {
+        "name": "R-301 Carbine",
+        "body_damage": 14,
+        "head_damage": 14,
+        "description": "Full-auto and high accuracy",
+        "ammo": "Light"
+      }
+    ]
+  },
+  {
+    "category": "Pistols",
+    "items": [
+      {
+        "name": "R-301 Carbine",
+        "body_damage": 14,
+        "head_damage": 14,
+        "description": "Full-auto and high accuracy",
+        "ammo": "Light"
+      }
+    ]
+  }
+]
