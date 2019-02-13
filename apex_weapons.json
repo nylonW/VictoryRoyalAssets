@@ -16,7 +16,7 @@
         "body_damage": "16",
         "head_damage": "32",
         "description": "Full-auto with a punch",
-        "ammo": "Light",
+        "ammo": "Heavy",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       },
       {
@@ -24,7 +24,7 @@
         "body_damage": "18",
         "head_damage": "36",
         "description": "3-round burst assault rifle",
-        "ammo": "Light",
+        "ammo": "Heavy",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       }
     ]
@@ -34,11 +34,27 @@
     "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
+        "name": "Alternator SMG",
+        "body_damage": "13",
+        "head_damage": "19",
+        "description": "Twin barrel full-auto SMG",
         "ammo": "Light",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "R-99",
+        "body_damage": "12",
+        "head_damage": "18",
+        "description": "Rapid-fire automatic SMG",
+        "ammo": "Light",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "Powler Burst PDW",
+        "body_damage": "14",
+        "head_damage": "21",
+        "description": "5-round burst SMG",
+        "ammo": "Heavy",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       }
     ]
@@ -48,11 +64,19 @@
     "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
-        "ammo": "Light",
+        "name": "M600 Spitfire",
+        "body_damage": "20",
+        "head_damage": "40",
+        "description": "Full-auto LMG",
+        "ammo": "Heavy",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "Devotion",
+        "body_damage": "17",
+        "head_damage": "34",
+        "description": "	Full-auto Energy LMG",
+        "ammo": "Energy",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       }
     ]
@@ -62,11 +86,35 @@
     "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
+        "name": "Triple Take",
+        "body_damage": "69",
+        "head_damage": "138",
+        "description": "Triple-barrel sniper",
+        "ammo": "Energy",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "Longbow DMR",
+        "body_damage": "55",
+        "head_damage": "110",
+        "description": "Semi-auto sniper",
+        "ammo": "Heavy",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "G7 Scout",
+        "body_damage": "30",
+        "head_damage": "60",
+        "description": "Semi-auto light sniper",
         "ammo": "Light",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "Kraber .50-cal Sniper",
+        "body_damage": "125",
+        "head_damage": "250",
+        "description": "Powerful bolt-action sniper",
+        "ammo": "Special Heavy",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       }
     ]
@@ -76,11 +124,35 @@
     "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
-        "ammo": "Light",
+        "name": "Peacekeeper",
+        "body_damage": "10 per bullet",
+        "head_damage": "15 per bullet",
+        "description": "Lever-action shotgun",
+        "ammo": "Shells",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "EVA-8 Auto",
+        "body_damage": "7",
+        "head_damage": "10",
+        "description": "Full-auto shotgun",
+        "ammo": "Shells",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "Mozambique Shotgun",
+        "body_damage": "15",
+        "head_damage": "22",
+        "description": "Triple-barrel shotgun pistol",
+        "ammo": "Shells",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "Mastiff Shotgun",
+        "body_damage": "18",
+        "head_damage": "36",
+        "description": "Powerful semi-auto shotgun",
+        "ammo": "Special Shells",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       }
     ]
@@ -90,11 +162,27 @@
     "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
+        "name": "RE-45 Auto",
+        "body_damage": "11",
+        "head_damage": "16",
+        "description": "Full-auto pistol",
         "ammo": "Light",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "P2020",
+        "body_damage": "12",
+        "head_damage": "18",
+        "description": "Semi-auto pistol",
+        "ammo": "Light",
+        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
+      },
+      {
+        "name": "R-301 Carbine",
+        "body_damage": "45",
+        "head_damage": "90",
+        "description": "High-powered revolver",
+        "ammo": "Heavy",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       }
     ]
