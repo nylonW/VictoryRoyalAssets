@@ -6,40 +6,24 @@
       {
         "name": "R-301 Carbine",
         "body_damage": "14",
-        "head_damage": "14",
+        "head_damage": "28",
         "description": "Full-auto and high accuracy",
         "ammo": "Light",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       },
       {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
+        "name": "VK-47 Flatline",
+        "body_damage": "16",
+        "head_damage": "32",
+        "description": "Full-auto with a punch",
         "ammo": "Light",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       },
       {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
-        "ammo": "Light",
-        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
-      },
-      {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
-        "ammo": "Light",
-        "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
-      },
-      {
-        "name": "R-301 Carbine",
-        "body_damage": "14",
-        "head_damage": "14",
-        "description": "Full-auto and high accuracy",
+        "name": "Hemlok Burst AR",
+        "body_damage": "18",
+        "head_damage": "36",
+        "description": "3-round burst assault rifle",
         "ammo": "Light",
         "url": "https://cdn3.iconfinder.com/data/icons/ahasoft-war/512/uzi_gun-512.png"
       }
@@ -74,7 +58,7 @@
     ]
   },
   {
-    "category": "Sniper",
+    "category": "Snipers",
     "icon_url": "https://cdn4.iconfinder.com/data/icons/military-icon-set/100/military_1-512.png",
     "items": [
       {
