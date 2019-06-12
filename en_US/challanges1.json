@@ -1,0 +1,17 @@
+[
+  {
+    "week": {
+      "name": "Challanges will be awailable soon :)",
+      "available": "true",
+      "challenges": [
+        {
+          "mission": "Deal damage with SMGs to opponents",
+          "progress": "500",
+          "reward": "5",
+          "id": "100",
+          "isOnMap": false
+        }
+      ]
+    }
+  }
+]
