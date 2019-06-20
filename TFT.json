@@ -1840,14 +1840,6 @@
           "value": 1.0
         }
       ]
-    },
-    {
-      "id": 541,
-      "name": "Mortal Reminder",
-      "desc": "TFT_item_description_MortalReminder",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MortalReminder.TFT.dds",
-      "from": [],
-      "effects": []
     }
   ]
 }
