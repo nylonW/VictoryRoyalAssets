@@ -1267,8 +1267,8 @@
     {
       "id": 8,
       "name": "Spatula",
-      "desc": "It must do <i>something</i>...",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Spatula.TFT.dds",
+      "desc": "It must do something...",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/8.png",
       "from": [],
       "effects": [
         {
@@ -1377,7 +1377,7 @@
       "id": 17,
       "name": "Zeke's Herald",
       "desc": "Adjacent allies gain +@AttackSpeed@% Attack Speed",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZekesHerald.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/17.png",
       "from": [
         "1",
         "7"
@@ -1458,7 +1458,7 @@
       "id": 26,
       "name": "Cursed Blade",
       "desc": "Attacks have a low chance to Shrink (Reduce enemy's star level by 1)",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/26.png",
       "from": [
         "2",
         "6"
@@ -1549,7 +1549,7 @@
       "id": 36,
       "name": "Ionic Spark",
       "desc": "Whenever an enemy casts a spell, they take @Damage@ damage",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_IonicSpark.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/36.png",
       "from": [
         "3",
         "6"
@@ -1593,7 +1593,7 @@
       "id": 38,
       "name": "Yuumi",
       "desc": "Wearer is also a Sorcerer",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Yuumi.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/38.png",
       "from": [
         "3",
         "8"
@@ -1636,7 +1636,7 @@
       "id": 46,
       "name": "Hush",
       "desc": "Attacks have a high chance to Silence",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/46.png",
       "from": [
         "4",
         "6"
@@ -1668,7 +1668,7 @@
       "id": 48,
       "name": "Darkin",
       "desc": "Wearer is also a Demon",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/48.png",
       "from": [
         "4",
         "8"
@@ -1695,7 +1695,7 @@
       "id": 56,
       "name": "Sword Breaker",
       "desc": "Attacks have a chance to disarm",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordBreaker.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/56.png",
       "from": [
         "5",
         "6"
@@ -1711,7 +1711,7 @@
       "id": 57,
       "name": "Red Buff",
       "desc": "Attacks deal @BurnPercent@% burn damage",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RedBuff.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/57.png",
       "from": [
         "5",
         "7"
@@ -1750,7 +1750,7 @@
       "id": 66,
       "name": "Dragon's Claw",
       "desc": "Gain @MagicReduction@% resistance to magic damage",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DragonsClaw.TFT.dds",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/66.png",
       "from": [
         "6",
         "6"
