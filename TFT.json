@@ -1627,8 +1627,8 @@
       ],
       "effects": [
         {
-          "name": "attackSpeedSlow",
-          "value": 20.0
+          "name": "AttackSpeedSlow",
+          "value": 20
         }
       ]
     },
