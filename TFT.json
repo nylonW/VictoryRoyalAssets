@@ -821,7 +821,7 @@
     },
     {
       "name": "Ninja",
-      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(@MinUnits@) Ninja gains +@ADPercent@% Attack Damage</row><br><row>(@MinUnits@) All Ninjas gain +@ADPercent@% Attack Damage</row>",
+      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains +@ADPercent1@% Attack Damage</row><br><row>(4) All Ninjas gain +@ADPercent@% Attack Damage</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
       "effects": [
         {
@@ -837,7 +837,7 @@
           "minUnits": 4,
           "vars": [
             {
-              "name": "ADPercent",
+              "name": "ADPercent1",
               "value": 80.0
             }
           ]
@@ -873,7 +873,7 @@
     },
     {
       "name": "Sorcerer",
-      "desc": "Sorcerers gain double mana from attacking<br><br>Allies have increased spell damage<br><br><expandRow>(@MinUnits@) +@AP@% Spell Damage</expandRow><br>",
+      "desc": "Sorcerers gain double mana from attacking<br><br>Allies have increased spell damage<br><br><expandRow>(3) +@AP@% Spell Damage</expandRow><br>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
       "effects": [
         {
@@ -898,7 +898,7 @@
     },
     {
       "name": "Wild",
-      "desc": "Attacks generate stacks of Fury (stacks up to 5 times). Each stack of Fury gives @AttackSpeedPercent@ Attack Speed<br><br><row>(@MinUnits@) Wild Allies Only</row><br><row>(@MinUnits@) All Allies</row>",
+      "desc": "Attacks generate stacks of Fury (stacks up to 5 times). Each stack of Fury gives @AttackSpeedPercent@ Attack Speed<br><br><row>(2) Wild Allies Only</row><br><row>(4) All Allies</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
       "effects": [
         {
@@ -1005,7 +1005,7 @@
     },
     {
       "name": "Imperial",
-      "desc": "Imperials deal Double Damage<br><br><row>(@MinUnits@) 1 Random Imperial</row><br><row>(@MinUnits@) All Imperials</row>",
+      "desc": "Imperials deal Double Damage<br><br><row>(2) 1 Random Imperial</row><br><row>(4) All Imperials</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds",
       "effects": [
         {
@@ -1030,7 +1030,7 @@
     },
     {
       "name": "Blademaster",
-      "desc": "Blademasters have a @ProcChance@% chance to strike additional times each attack<br><br><row>(@MinUnits@) One Additional Strike</row><br><row>(@MinUnits@) Two Additional Strikes</row>",
+      "desc": "Blademasters have a @ProcChance@% chance to strike additional times each attack<br><br><row>(3) One Additional Strike</row><br><row>(6) Two Additional Strikes</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
       "effects": [
         {
@@ -1074,7 +1074,7 @@
     },
     {
       "name": "Gunslinger",
-      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(@MinUnits@) Attack another random enemy</row><br><row>(@MinUnits@) Attack all other enemies in range</row>",
+      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(2) Attack another random enemy</row><br><row>(4) Attack all other enemies in range</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
       "effects": [
         {
@@ -1360,7 +1360,7 @@
     {
       "id": 16,
       "name": "The Bloodthirster",
-      "desc": "Attacks heal for @Lifesteal@% of damage",
+      "desc": "Attacks heal for @LifeSteal@% of damage",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Bloodthirster.TFT.dds",
       "from": [
         "1",
@@ -1369,7 +1369,7 @@
       "effects": [
         {
           "name": "LifeSteal",
-          "value": 50.0
+          "value": 35.0
         }
       ]
     },
