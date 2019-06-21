@@ -821,7 +821,7 @@
     },
     {
       "name": "Ninja",
-      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains +@ADPercent1@% Attack Damage</row><br><row>(4) All Ninjas gain +@ADPercent@% Attack Damage</row>",
+      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains +@ADPercent@% Attack Damage</row><br><row>(4) All Ninjas gain +@ADPercent1@% Attack Damage</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
       "effects": [
         {
@@ -1423,7 +1423,7 @@
       "effects": [
         {
           "name": "AttackSpeedPerStack",
-          "value": 4.0
+          "value": 3.0
         }
       ]
     },
