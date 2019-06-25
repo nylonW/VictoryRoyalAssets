@@ -699,7 +699,7 @@
     },
     {
       "name": "Noble",
-      "desc": "+@Armor@ Armor and heal @Heal@ health per attack<br><br><row>(@MinUnits@) 1 Random Ally</row><br><row>(@MinUnits@) All Allies</row>",
+      "desc": "+@Armor@ Armor and heal @Heal@ health per attack<br><br><row>(3) 1 Random Ally</row><br><row>(6) All Allies</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
       "effects": [
         {
