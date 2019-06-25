@@ -906,7 +906,7 @@
           "vars": [
             {
               "name": "AttackSpeedPercent",
-              "value": 8.0
+              "value": 7
             }
           ]
         },
@@ -915,7 +915,7 @@
           "vars": [
             {
               "name": "AttackSpeedPercent",
-              "value": 8.0
+              "value": 7
             }
           ]
         }
@@ -1337,7 +1337,7 @@
       "effects": [
         {
           "name": "ManaPercentRestore",
-          "value": 20.0
+          "value": 15
         }
       ]
     },
@@ -1353,7 +1353,7 @@
       "effects": [
         {
           "name": "HealthRestore",
-          "value": 300.0
+          "value": 500
         }
       ]
     },
@@ -1385,7 +1385,7 @@
       "effects": [
         {
           "name": "AttackSpeed",
-          "value": 20.0
+          "value": 10
         }
       ]
     },
@@ -1687,7 +1687,7 @@
       "effects": [
         {
           "name": "DamageReflect",
-          "value": 25.0
+          "value": 35.0
         }
       ]
     },
@@ -1810,7 +1810,7 @@
       "effects": [
         {
           "name": "HealthRegen",
-          "value": 2.5
+          "value": 3
         }
       ]
     },
