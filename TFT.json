@@ -1305,7 +1305,7 @@
       "effects": [
         {
           "name": "ChanceToProc",
-          "value": 5.0
+          "value": 5
         }
       ]
     },
@@ -1369,7 +1369,7 @@
       "effects": [
         {
           "name": "LifeSteal",
-          "value": 35.0
+          "value": 50
         }
       ]
     },
