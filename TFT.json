@@ -619,7 +619,7 @@
     },
     {
       "name": "Glacial",
-      "desc": "Attacks from Glacials have a chance to stun for @StunDuration@s<br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Stun</expandRow><br>",
+      "desc": "Attacks from Glacials have a chance to stun for @StunDuration@s<br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Stun</expandRow>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
       "effects": [
         {
@@ -771,7 +771,7 @@
     },
     {
       "name": "Demon",
-      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>",
+      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 50% Chance to Mana Burn<br>(6) 70% Chance to Mana Burn",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
       "effects": [
         {
@@ -805,7 +805,7 @@
     },
     {
       "name": "Shapeshifter",
-      "desc": "Shapeshifters gain bonus maximum Health when they transform<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health</expandRow><br>",
+      "desc": "Shapeshifters gain bonus maximum Health when they transform<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health</expandRow>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
       "effects": [
         {
@@ -857,7 +857,7 @@
     },
     {
       "name": "Void",
-      "desc": "<row>(@MinUnits@) All basic attacks ignore @PercentArmorPen@% of the enemy's Armor</row><br>",
+      "desc": "<row>(@MinUnits@) All basic attacks ignore @PercentArmorPen@% of the enemy's Armor</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
       "effects": [
         {
@@ -873,7 +873,7 @@
     },
     {
       "name": "Sorcerer",
-      "desc": "Sorcerers gain double mana from attacking<br><br>Allies have increased spell damage<br><br><expandRow>(3) +@AP@% Spell Damage</expandRow><br>",
+      "desc": "Sorcerers gain double mana from attacking<br><br>Allies have increased spell damage<br><br><expandRow>(3) +@AP@% Spell Damage</expandRow><br>(6) +100% Spell Damage",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
       "effects": [
         {
@@ -939,7 +939,7 @@
     },
     {
       "name": "Brawler",
-      "desc": "Brawlers receive bonus maximum health<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>",
+      "desc": "Brawlers receive bonus maximum health<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>(4) 700 Bonus Health",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
       "effects": [
         {
@@ -964,7 +964,7 @@
     },
     {
       "name": "Ranger",
-      "desc": "Rangers have a chance to double their attack speed every @ProcRate@s for the next @ProcRate@s <br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Double Attack Speed</expandRow><br>",
+      "desc": "Rangers have a chance to double their attack speed every @ProcRate@s for the next @ProcRate@s <br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Double Attack Speed</expandRow><br>(4) 65% Chance to Double Attack Speed",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
       "effects": [
         {
@@ -1030,7 +1030,7 @@
     },
     {
       "name": "Blademaster",
-      "desc": "Blademasters have a @ProcChance@% chance to strike additional times each attack<br><br><row>(3) One Additional Strike</row><br><row>(6) Two Additional Strikes</row>",
+      "desc": "Blademasters have a @ProcChance@% chance to strike additional times each attack<br><br><row>(3) One Additional Strike</row><br><row>(6) Two Additional Strikes",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
       "effects": [
         {
@@ -1123,7 +1123,7 @@
     },
     {
       "name": "Assassin",
-      "desc": "Assassins leap to the farthest enemy at the start of combat <br><br>Assassins deal additional Critical Strike Damage<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage</expandRow><br>",
+      "desc": "Assassins leap to the farthest enemy at the start of combat <br><br>Assassins deal additional Critical Strike Damage<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage</expandRow><br>(6) +350% Critical Strike Damage",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
       "effects": [
         {
@@ -1148,7 +1148,7 @@
     },
     {
       "name": "Yordle",
-      "desc": "Attacks against ally Yordles have a chance to miss<br><br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>",
+      "desc": "Attacks against ally Yordles have a chance to miss<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 50% Chance to Miss",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
       "effects": [
         {
