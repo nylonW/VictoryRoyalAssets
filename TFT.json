@@ -619,7 +619,7 @@
     },
     {
       "name": "Glacial",
-      "desc": "Attacks from Glacials have a chance to stun for @StunDuration@s<br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Stun</expandRow>",
+      "desc": "Attacks from Glacials have a chance to stun for @StunDuration@s<br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Stun<br>(4) 35@% Chance to Stun<br>(6) 45% Chance to Stun",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
       "effects": [
         {
@@ -665,7 +665,7 @@
     },
     {
       "name": "Knight",
-      "desc": "Knights block damage from basic attacks.<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked</expandRow>",
+      "desc": "Knights block damage from basic attacks.<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked<br>(4) 40 Damage Blocked<br>(6) 80 Damage Blocked",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
       "effects": [
         {
