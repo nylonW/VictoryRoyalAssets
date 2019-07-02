@@ -771,7 +771,7 @@
     },
     {
       "name": "Demon",
-      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 50% Chance to Mana Burn<br>(6) 70% Chance to Mana Burn",
+      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 60% Chance to Mana Burn<br>(6) 80% Chance to Mana Burn",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
       "effects": [
         {
