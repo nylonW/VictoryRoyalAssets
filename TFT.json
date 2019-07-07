@@ -1148,7 +1148,7 @@
     },
     {
       "name": "Yordle",
-      "desc": "Attacks against ally Yordles have a chance to miss<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 50% Chance to Miss",
+      "desc": "Attacks against ally Yordles have a chance to miss<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 60% Chance to Miss",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
       "effects": [
         {
@@ -1156,7 +1156,7 @@
           "vars": [
             {
               "name": "MissPercent",
-              "value": 20.0
+              "value": 25.0
             }
           ]
         },
@@ -1165,7 +1165,7 @@
           "vars": [
             {
               "name": "MissPercent",
-              "value": 50.0
+              "value": 60.0
             }
           ]
         }
