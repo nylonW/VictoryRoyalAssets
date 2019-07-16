@@ -304,7 +304,7 @@
     },
     {
       "name": "Elise",
-      "cost": 2,
+      "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Elise.dds",
       "abilityName": "Spider Form",
       "abilityDesc": "Elise summons Spiderlings and transforms, gaining Lifesteal",
@@ -408,6 +408,18 @@
       "traits": [
         "Noble",
         "Gunslinger"
+      ]
+    },
+    {
+      "name": "Twisted Fate",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_TwistedFate.dds",
+      "abilityName": "Pick a Card",
+      "abilityDesc": "Twisted Fate throws a card that randomly stuns (Gold), deals damage around his target (Red), or restores mana to himself and nearby allies (Blue)",
+      "abilityIcon": "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_E.dds",
+      "traits": [
+        "Pirate",
+        "Sorcerer"
       ]
     },
     {
@@ -771,7 +783,7 @@
     },
     {
       "name": "Demon",
-      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 60% Chance to Mana Burn<br>(6) 80% Chance to Mana Burn",
+      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 50% Chance to Mana Burn<br>(6) 85% Chance to Mana Burn",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
       "effects": [
         {
@@ -779,7 +791,7 @@
           "vars": [
             {
               "name": "ProcChance",
-              "value": 40.0
+              "value": 25.0
             }
           ]
         },
@@ -788,7 +800,7 @@
           "vars": [
             {
               "name": "ProcChance",
-              "value": 60.0
+              "value": 50.0
             }
           ]
         },
@@ -797,7 +809,7 @@
           "vars": [
             {
               "name": "ProcChance",
-              "value": 80.0
+              "value": 85.0
             }
           ]
         }
@@ -813,7 +825,7 @@
           "vars": [
             {
               "name": "HPPercent",
-              "value": 100.0
+              "value": 60.0
             }
           ]
         }
@@ -906,7 +918,7 @@
           "vars": [
             {
               "name": "AttackSpeedPercent",
-              "value": 7
+              "value": 8
             }
           ]
         },
@@ -915,7 +927,7 @@
           "vars": [
             {
               "name": "AttackSpeedPercent",
-              "value": 7
+              "value": 8
             }
           ]
         }
@@ -1074,7 +1086,7 @@
     },
     {
       "name": "Gunslinger",
-      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(2) Attack another random enemy</row><br><row>(4) Attack all other enemies in range</row>",
+      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(2) Attack another random enemy</row><br><row>(4) Attacj two random enemies</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
       "effects": [
         {
@@ -1353,7 +1365,7 @@
       "effects": [
         {
           "name": "HealthRestore",
-          "value": 500
+          "value": 1000
         }
       ]
     },
@@ -1376,7 +1388,7 @@
     {
       "id": 17,
       "name": "Zeke's Herald",
-      "desc": "Adjacent allies gain +@AttackSpeed@% Attack Speed",
+      "desc": "Grants +@AttackSpeed@% attack speed to champions two spaces to the left and right of the wearer",
       "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/17.png",
       "from": [
         "1",
@@ -1385,7 +1397,7 @@
       "effects": [
         {
           "name": "AttackSpeed",
-          "value": 10
+          "value": 15
         }
       ]
     },
@@ -1423,7 +1435,7 @@
       "effects": [
         {
           "name": "AttackSpeedPerStack",
-          "value": 3.0
+          "value": 4.0
         }
       ]
     },
@@ -1525,14 +1537,14 @@
       "effects": [
         {
           "name": "Damage",
-          "value": 100.0
+          "value": 200.0
         }
       ]
     },
     {
       "id": 35,
       "name": "Locket of the Iron Solari",
-      "desc": "On start of combat, all adjacent allies gain a shield of @ShieldValue@",
+      "desc": "On start of combat, the wearer and the champions two spaces to the left and right of the wearer gain a shield of @ShieldValue@",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
       "from": [
         "3",
@@ -1541,14 +1553,14 @@
       "effects": [
         {
           "name": "ShieldValue",
-          "value": 200.0
+          "value": 300.0
         }
       ]
     },
     {
       "id": 36,
       "name": "Ionic Spark",
-      "desc": "Whenever an enemy casts a spell, they take @Damage@ damage",
+      "desc": "Whenever an enemy casts a spell, they take @Damage@ true damage",
       "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/36.png",
       "from": [
         "3",
@@ -1557,7 +1569,7 @@
       "effects": [
         {
           "name": "Damage",
-          "value": 100.0
+          "value": 200.0
         }
       ]
     },
@@ -1573,7 +1585,7 @@
       "effects": [
         {
           "name": "BurnPercent",
-          "value": 2.5
+          "value": 3
         },
         {
           "name": "6DF27940",
@@ -1651,7 +1663,7 @@
     {
       "id": 47,
       "name": "Redemption",
-      "desc": "On death, heal all nearby allies for @HealthRestore@ Health",
+      "desc": "On 25% health, heal all nearby allies for @HealthRestore@ Health",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Redemption.TFT.dds",
       "from": [
         "4",
@@ -1678,7 +1690,7 @@
     {
       "id": 55,
       "name": "Thornmail",
-      "desc": "Reflect @DamageReflect@% of damage taken from attacks",
+      "desc": "Reflect @DamageReflect@% of physical damage mitigated as true damage",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Thornmail.TFT.dds",
       "from": [
         "5",
@@ -1687,7 +1699,7 @@
       "effects": [
         {
           "name": "DamageReflect",
-          "value": 35.0
+          "value": 100.0
         }
       ]
     },
@@ -1781,7 +1793,7 @@
     {
       "id": 68,
       "name": "Runaan's Hurricane",
-      "desc": "Attacks target @AdditionalTargets@ additional enemies. These additional attacks deal @DamagePenalty@% damage",
+      "desc": "Attacks target @AdditionalTargets@ additional enemies. These additional attacks deal @DamagePenalty@% damage and applies on-hit effects",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RunaansHurricane.TFT.dds",
       "from": [
         "6",
@@ -1790,18 +1802,18 @@
       "effects": [
         {
           "name": "AdditionalTargets",
-          "value": 2.0
+          "value": 1.0
         },
         {
           "name": "DamagePenalty",
-          "value": 50.0
+          "value": 25.0
         }
       ]
     },
     {
       "id": 77,
       "name": "Warmog's Armor",
-      "desc": "Wearer regenerates @HealthRegen@% max Health per second",
+      "desc": "Wearer regenerates @HealthRegen@% missing Health per second",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_WarmogsArmor.TFT.dds",
       "from": [
         "7",
@@ -1810,7 +1822,7 @@
       "effects": [
         {
           "name": "HealthRegen",
-          "value": 3
+          "value": 6
         }
       ]
     },
