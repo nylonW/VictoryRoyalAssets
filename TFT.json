@@ -1553,7 +1553,7 @@
       "effects": [
         {
           "name": "ShieldValue",
-          "value": 300.0
+          "value": 200.0
         }
       ]
     },
