@@ -1086,7 +1086,7 @@
     },
     {
       "name": "Gunslinger",
-      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(2) Attack another random enemy</row><br><row>(4) Attacj two random enemies</row>",
+      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(2) Attack another random enemy</row><br><row>(4) Attack two random enemies",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
       "effects": [
         {
