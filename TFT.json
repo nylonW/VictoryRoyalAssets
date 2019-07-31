@@ -677,7 +677,7 @@
     },
     {
       "name": "Knight",
-      "desc": "Knights block damage from basic attacks.<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked<br>(4) 40 Damage Blocked<br>(6) 80 Damage Blocked",
+      "desc": "Your team ignores damage from all sources<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked<br>(4) 30 Damage Blocked<br>(6) 55 Damage Blocked",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
       "effects": [
         {
@@ -685,7 +685,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 20.0
+              "value": 15.0
             }
           ]
         },
@@ -694,7 +694,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 40.0
+              "value": 30.0
             }
           ]
         },
@@ -703,7 +703,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 80.0
+              "value": 55.0
             }
           ]
         }
@@ -711,7 +711,7 @@
     },
     {
       "name": "Noble",
-      "desc": "+@Armor@ Armor and heal @Heal@ health per attack<br><br><row>(3) 1 Random Ally</row><br><row>(6) All Allies</row>",
+      "desc": "+@Armor@ Armor & Magic Resist and heal @Heal@ health per attack<br><br><row>(3) 1 Random Ally</row><br><row>(6) All Allies</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Noble.dds",
       "effects": [
         {
@@ -719,7 +719,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 100.0
+              "value": 60.0
             },
             {
               "name": "Heal",
@@ -783,7 +783,7 @@
     },
     {
       "name": "Demon",
-      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 50% Chance to Mana Burn<br>(6) 85% Chance to Mana Burn",
+      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 35% Chance to Mana Burn<br>(6) 60% Chance to Mana Burn",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
       "effects": [
         {
@@ -791,7 +791,7 @@
           "vars": [
             {
               "name": "ProcChance",
-              "value": 25.0
+              "value": 20.0
             }
           ]
         },
@@ -800,7 +800,7 @@
           "vars": [
             {
               "name": "ProcChance",
-              "value": 50.0
+              "value": 35.0
             }
           ]
         },
@@ -809,7 +809,7 @@
           "vars": [
             {
               "name": "ProcChance",
-              "value": 85.0
+              "value": 60.0
             }
           ]
         }
@@ -817,7 +817,7 @@
     },
     {
       "name": "Shapeshifter",
-      "desc": "Shapeshifters gain bonus maximum Health when they transform<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health</expandRow>",
+      "desc": "Shapeshifters gain bonus maximum Health when they transform<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health<br><br><expandRow>(6) 120% Bonus Maximum Health",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
       "effects": [
         {
@@ -833,7 +833,7 @@
     },
     {
       "name": "Ninja",
-      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains +@ADPercent@% Attack Damage</row><br><row>(4) All Ninjas gain +@ADPercent1@% Attack Damage</row>",
+      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains 40 AD & AP</row><br><row>(4) All Ninjas gain 60 AD & AP",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
       "effects": [
         {
@@ -858,7 +858,7 @@
     },
     {
       "name": "Dragon",
-      "desc": "<row>(@MinUnits@) Dragons are immune to Magic damage</row>",
+      "desc": "<row>(@MinUnits@) Dragons are immune to 83% of Magic damage</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
       "effects": [
         {
@@ -869,7 +869,7 @@
     },
     {
       "name": "Void",
-      "desc": "<row>(@MinUnits@) All basic attacks ignore @PercentArmorPen@% of the enemy's Armor</row>",
+      "desc": "<row>(@MinUnits@) Void units deal True Damage</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
       "effects": [
         {
@@ -935,7 +935,7 @@
     },
     {
       "name": "Guardian",
-      "desc": "<row>(@MinUnits@) At the start of combat, all Guardians and adjacent allies receive +@Armor@ Armor</row>",
+      "desc": "<row>(@MinUnits@) At the start of combat, adjacent allies receive +@Armor@ Armor</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds",
       "effects": [
         {
@@ -943,7 +943,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 40.0
+              "value": 50.0
             }
           ]
         }
@@ -951,7 +951,7 @@
     },
     {
       "name": "Brawler",
-      "desc": "Brawlers receive bonus maximum health<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>(4) 700 Bonus Health",
+      "desc": "Brawlers receive bonus maximum health<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>(4) 700 Bonus Health</expandRow><br>(6) 1200 Bonus Health",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
       "effects": [
         {
@@ -1042,7 +1042,7 @@
     },
     {
       "name": "Blademaster",
-      "desc": "Blademasters have a @ProcChance@% chance to strike additional times each attack<br><br><row>(3) One Additional Strike</row><br><row>(6) Two Additional Strikes",
+      "desc": "Blademasters have a @ProcChance@% chance to strike additional times each attack<br><br><row>(3) One Additional Strike</row><br><row>(6) Two Additional Strikes</row><br><row>(9) Four Additional Strikes",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds",
       "effects": [
         {
@@ -1086,7 +1086,7 @@
     },
     {
       "name": "Gunslinger",
-      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(2) Attack another random enemy</row><br><row>(4) Attack two random enemies",
+      "desc": "After attacking, Gunslingers have a @ProcPercent@% chance to fire additional attacks<br><br><row>(2) Attack another random enemy</row><br><row>(4) Attack two random enemies</row><br><row>(6) Attack three random enemies",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Gunslinger.dds",
       "effects": [
         {
@@ -1160,7 +1160,7 @@
     },
     {
       "name": "Yordle",
-      "desc": "Attacks against ally Yordles have a chance to miss<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 60% Chance to Miss",
+      "desc": "Attacks against ally Yordles have a chance to miss (Also dodges On-hit effects)<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 55% Chance to Miss",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
       "effects": [
         {
@@ -1168,7 +1168,7 @@
           "vars": [
             {
               "name": "MissPercent",
-              "value": 25.0
+              "value": 30.0
             }
           ]
         },
@@ -1177,7 +1177,7 @@
           "vars": [
             {
               "name": "MissPercent",
-              "value": 60.0
+              "value": 55.0
             }
           ]
         }
@@ -1451,7 +1451,7 @@
       "effects": [
         {
           "name": "Damage",
-          "value": 100.0
+          "value": 90.0
         }
       ]
     },
@@ -1544,7 +1544,7 @@
     {
       "id": 35,
       "name": "Locket of the Iron Solari",
-      "desc": "On start of combat, the wearer and the champions two spaces to the left and right of the wearer gain a shield of @ShieldValue@",
+      "desc": "On start of combat, the wearer and the champions two spaces to the left and right of the wearer gain a shield of @ShieldValue@ for 4 seconds",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
       "from": [
         "3",
@@ -1553,7 +1553,7 @@
       "effects": [
         {
           "name": "ShieldValue",
-          "value": 200.0
+          "value": 250.0
         }
       ]
     },
@@ -1569,7 +1569,7 @@
       "effects": [
         {
           "name": "Damage",
-          "value": 200.0
+          "value": 150.0
         }
       ]
     },
@@ -1647,7 +1647,7 @@
     {
       "id": 46,
       "name": "Hush",
-      "desc": "Attacks have a high chance to Silence",
+      "desc": "Attacks have a high chance to Silence an unit for 3 seconds",
       "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/46.png",
       "from": [
         "4",
