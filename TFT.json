@@ -327,6 +327,54 @@
       ]
     },
     {
+      "name": "Camille",
+      "cost": 1,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "abilityName": "The Hextech Ultimatum",
+      "abilityDesc": "Roots an enemy and forces her in-range teammates to target whomever she's fighting",
+      "abilityIcon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Camille_R2.dds",
+      "traits": [
+        "Hextech",
+        "Blademaster"
+      ]
+    },
+    {
+      "name": "Jayce",
+      "cost": 2,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "abilityName": "Transform Mercury Cannon",
+      "abilityDesc": "Jayce knocks away an enemy in melee range, dealing damage and stunning them. He then transforms his hammer into a cannon, increasing his attack range and gaining a burst of attack speed.",
+      "abilityIcon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Camille_R2.dds",
+      "traits": [
+        "Hextech",
+        "Shapeshifter"
+      ]
+    },
+    {
+      "name": "Vi",
+      "cost": 3,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "abilityName": "Assault and Battery",
+      "abilityDesc": "Targets the farthest enemy and charges towards them, knocking aside and damaging every enemy along the way. Once she gets there, she knocks her target up and damages them.",
+      "abilityIcon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Camille_R2.dds",
+      "traits": [
+        "Hextech",
+        "Brawler"
+      ]
+    },
+    {
+      "name": "Jinx",
+      "cost": 4,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "abilityName": "Get Excited",
+      "abilityDesc": "Jinx gets excited as she participates in kills, first gaining attack speed and then pulling out her rocket launcher.",
+      "abilityIcon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Camille_R2.dds",
+      "traits": [
+        "Hextech",
+        "Gunslinger"
+      ]
+    },
+    {
       "name": "Vayne",
       "cost": 1,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Vayne.dds",
@@ -761,6 +809,29 @@
     {
       "name": "Elementalist",
       "desc": "Elementalists gain double mana from attacks<br><br><row>(@MinUnits@) At the start of combat, summon a Golem</row>",
+      "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
+      "effects": [
+        {
+          "minUnits": 3,
+          "vars": [
+            {
+              "name": "32FED486",
+              "value": 1.0
+            },
+            {
+              "name": "558229DF",
+              "value": 1.0
+            },
+            {
+              "name": "13EFE61D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hextechs",
+      "desc": "Throw a bomb at an enemy unit with an item, and disables all items for 8 seconds.<br><br><row>(2) 1 hex radius</row>(4) 2 hex radius",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
       "effects": [
         {
