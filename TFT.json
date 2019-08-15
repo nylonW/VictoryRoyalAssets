@@ -767,7 +767,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 60.0
+              "value": 70.0
             },
             {
               "name": "Heal",
@@ -780,7 +780,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 100.0
+              "value": 70.0
             },
             {
               "name": "Heal",
@@ -831,7 +831,7 @@
     },
     {
       "name": "Hextechs",
-      "desc": "Throw a bomb at an enemy unit with an item, and disables all items for 8 seconds.<br><br><row>(2) 1 hex radius</row>(4) 2 hex radius",
+      "desc": "Throw a bomb at an enemy unit with an item, and disables all items for 8 seconds.<br><br><row>(2) 1 hex radius</row><br>(4) 2 hex radius",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
       "effects": [
         {
@@ -854,7 +854,7 @@
     },
     {
       "name": "Demon",
-      "desc": "Attacks from Demons have a chance to burn all of an enemy's mana and deal that much true damage<br><br><expandRow>(@MinUnits@) @ProcChance@% Chance to Mana Burn</expandRow><br>(4) 35% Chance to Mana Burn<br>(6) 60% Chance to Mana Burn",
+      "desc": "Demon basic attacks have a 40% chance to burn 20 mana from their target and return some mana to the attacker<br><br><expandRow>(2) 15 mana returned</expandRow><br>(4) 30 mana returned<br>(6) 45 mana returned",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Demon.dds",
       "effects": [
         {
@@ -904,7 +904,7 @@
     },
     {
       "name": "Ninja",
-      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains 40 AD & AP</row><br><row>(4) All Ninjas gain 60 AD & AP",
+      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains 50 AD & AP</row><br><row>(4) All Ninjas gain 70 AD & AP",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
       "effects": [
         {
@@ -964,7 +964,7 @@
           "vars": [
             {
               "name": "AP",
-              "value": 45.0
+              "value": 40.0
             }
           ]
         },
@@ -989,7 +989,7 @@
           "vars": [
             {
               "name": "AttackSpeedPercent",
-              "value": 10
+              "value": 12
             }
           ]
         },
@@ -1022,7 +1022,7 @@
     },
     {
       "name": "Brawler",
-      "desc": "Brawlers receive bonus maximum health<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>(4) 700 Bonus Health</expandRow><br>(6) 1200 Bonus Health",
+      "desc": "Brawlers receive bonus maximum health<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>(4) 600 Bonus Health</expandRow><br>(6) 1000 Bonus Health",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Brawler.dds",
       "effects": [
         {
@@ -1372,7 +1372,7 @@
       "effects": [
         {
           "name": "CriticalStrikeAmp",
-          "value": 150.0
+          "value": 200.0
         }
       ]
     },
@@ -1436,7 +1436,7 @@
       "effects": [
         {
           "name": "HealthRestore",
-          "value": 1000
+          "value": 500
         }
       ]
     },
@@ -1513,7 +1513,7 @@
     {
       "id": 24,
       "name": "Statikk Shiv",
-      "desc": "Every 3rd attack deals @Damage@ splash magical damage",
+      "desc": "Every 3rd attack deals @Damage@ splash magical damage (bounces 3 times)",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_StatikkShiv.TFT.dds",
       "from": [
         "2",
@@ -1522,7 +1522,7 @@
       "effects": [
         {
           "name": "Damage",
-          "value": 90.0
+          "value": 100.0
         }
       ]
     },
@@ -1615,7 +1615,7 @@
     {
       "id": 35,
       "name": "Locket of the Iron Solari",
-      "desc": "On start of combat, the wearer and the champions two spaces to the left and right of the wearer gain a shield of @ShieldValue@ for 4 seconds",
+      "desc": "On start of combat, the wearer and the champions two spaces to the left and right of the wearer gain a shield of @ShieldValue@ for 6 seconds",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
       "from": [
         "3",
@@ -1640,14 +1640,14 @@
       "effects": [
         {
           "name": "Damage",
-          "value": 150.0
+          "value": 125.0
         }
       ]
     },
     {
       "id": 37,
       "name": "Morellonomicon",
-      "desc": "Spells deal burn damage equal to @BurnPercent@% of the enemy's maximum health over 5 seconds and prevent healing",
+      "desc": "Spells deal burn damage equal to @BurnPercent@% of the enemy's maximum health over 10 seconds and prevent healing",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
       "from": [
         "3",
@@ -1656,7 +1656,7 @@
       "effects": [
         {
           "name": "BurnPercent",
-          "value": 25
+          "value": 20
         },
         {
           "name": "6DF27940",
@@ -1743,7 +1743,7 @@
       "effects": [
         {
           "name": "HealthRestore",
-          "value": 1000.0
+          "value": 1500.0
         }
       ]
     },
@@ -1793,7 +1793,7 @@
     {
       "id": 57,
       "name": "Red Buff",
-      "desc": "Attacks deal @BurnPercent@% burn damage over 5 seconds and prevent healing",
+      "desc": "Attacks deal @BurnPercent@% burn damage over 10 seconds and prevent healing",
       "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/57.png",
       "from": [
         "5",
@@ -1802,7 +1802,7 @@
       "effects": [
         {
           "name": "BurnPercent",
-          "value": 13.0
+          "value": 10.0
         },
         {
           "name": "97E52CE8",
