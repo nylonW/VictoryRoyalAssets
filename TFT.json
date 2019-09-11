@@ -342,7 +342,7 @@
       "name": "Jayce",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
-      "abilityName": "Transform Mercury Cannon",
+      "abilityName": "Mercury Cannon",
       "abilityDesc": "Jayce knocks away an enemy in melee range, dealing damage and stunning them. He then transforms his hammer into a cannon, increasing his attack range and gaining a burst of attack speed.",
       "abilityIcon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Camille_R2.dds",
       "traits": [
@@ -372,6 +372,18 @@
       "traits": [
         "Hextech",
         "Gunslinger"
+      ]
+    },
+    {
+      "name": "Pantheon",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Camille.dds",
+      "abilityName": "Grand Starfall",
+      "abilityDesc": "Pantheon leaps in the air, crashing down towards the farthest enemy, stunning them. Enemies in Pantheon's path take a percentage of their Maximum Health as Magic Damage. They then burn for an additional 20% of their Maximum Health as True Damage over 10 seconds. Applies Grievous Wounds.",
+      "abilityIcon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Camille_R2.dds",
+      "traits": [
+        "Dragon",
+        "Guardian"
       ]
     },
     {
