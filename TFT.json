@@ -737,7 +737,7 @@
     },
     {
       "name": "Knight",
-      "desc": "Your team ignores damage from all sources<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked<br>(4) 30 Damage Blocked<br>(6) 55 Damage Blocked",
+      "desc": "Your team ignores damage from all sources<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked<br>(4) 36 Damage Blocked<br>(6) 65 Damage Blocked",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Knight.dds",
       "effects": [
         {
@@ -754,7 +754,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 30.0
+              "value": 35.0
             }
           ]
         },
@@ -763,7 +763,7 @@
           "vars": [
             {
               "name": "BlockAmount",
-              "value": 55.0
+              "value": 65.0
             }
           ]
         }
@@ -779,11 +779,11 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 70.0
+              "value": 50.0
             },
             {
               "name": "Heal",
-              "value": 35.0
+              "value": 25.0
             }
           ]
         },
@@ -843,7 +843,7 @@
     },
     {
       "name": "Hextech",
-      "desc": "Throw a bomb at an enemy unit with an item, and disables all items for 8 seconds.<br><br><row>(2) 1 hex radius</row><br>(4) 2 hex radius",
+      "desc": "Throw a bomb at an enemy unit with an item, and disables all items for 7 seconds.<br><br><row>(2) 1 hex radius</row><br>(4) 2 hex radius",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
       "effects": [
         {
@@ -968,7 +968,7 @@
     },
     {
       "name": "Sorcerer",
-      "desc": "Sorcerers gain double mana from attacking<br><br>Allies have increased spell damage<br><br><expandRow>(3) +@AP@% Spell Damage</expandRow><br>(6) +100% Spell Damage",
+      "desc": "Sorcerers gain double mana from attacking<br><br>Allies have increased spell damage<br><br><expandRow>(3) +40% Spell Damage</expandRow><br>(6) +100% Spell Damage<br><br><expandRow>(9) +175% Spell Damage",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Sorcerer.dds",
       "effects": [
         {
@@ -993,7 +993,7 @@
     },
     {
       "name": "Wild",
-      "desc": "Attacks generate stacks of Fury (stacks up to 5 times). Each stack of Fury gives @AttackSpeedPercent@ Attack Speed<br><br><row>(2) Wild Allies Only</row><br><row>(4) All Allies</row>",
+      "desc": "Attacks generate stacks of Fury (stacks up to 5 times). Each stack of Fury gives @AttackSpeedPercent@ Attack Speed<br><br><row>(2) Wild Allies Only</row><br><row>(4) All Allies AND their basic attacks can’t miss.</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Wild.dds",
       "effects": [
         {
@@ -1026,7 +1026,7 @@
           "vars": [
             {
               "name": "Armor",
-              "value": 50.0
+              "value": 35.0
             }
           ]
         }
@@ -1059,7 +1059,7 @@
     },
     {
       "name": "Ranger",
-      "desc": "Rangers have a chance to double their attack speed every @ProcRate@s for the next @ProcRate@s <br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Double Attack Speed</expandRow><br>(4) 65% Chance to Double Attack Speed",
+      "desc": "Rangers have a chance to double their attack speed every @ProcRate@s for the next @ProcRate@s <br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Double Attack Speed</expandRow><br>(4) 70% Chance to Double Attack Speed",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ranger.dds",
       "effects": [
         {
@@ -1067,7 +1067,7 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 25.0
+              "value": 30.0
             },
             {
               "name": "92B5A83E",
@@ -1084,7 +1084,7 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 65.0
+              "value": 70.0
             },
             {
               "name": "92B5A83E",
@@ -1218,7 +1218,7 @@
     },
     {
       "name": "Assassin",
-      "desc": "Assassins leap to the farthest enemy at the start of combat <br><br>Assassins deal additional Critical Strike Damage<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage</expandRow><br>(6) +350% Critical Strike Damage",
+      "desc": "Assassins leap to the farthest enemy at the start of combat <br><br>Assassins deal additional Critical Strike Damage<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage and 10% Crit Chance</expandRow><br>(6) +150% Critical Strike Damage and 25% Crit Chance",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
       "effects": [
         {
@@ -1226,7 +1226,7 @@
           "vars": [
             {
               "name": "CritAmpPercent",
-              "value": 125.0
+              "value": 75.0
             }
           ]
         },
@@ -1235,7 +1235,7 @@
           "vars": [
             {
               "name": "CritAmpPercent",
-              "value": 350.0
+              "value": 150.0
             }
           ]
         }
@@ -1243,7 +1243,7 @@
     },
     {
       "name": "Yordle",
-      "desc": "Attacks against ally Yordles have a chance to miss (Also dodges On-hit effects)<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 55% Chance to Miss",
+      "desc": "Attacks against ally Yordles have a chance to miss (Also dodges On-hit effects)<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 60% Chance to Miss",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
       "effects": [
         {
@@ -1251,7 +1251,7 @@
           "vars": [
             {
               "name": "MissPercent",
-              "value": 30.0
+              "value": 35.0
             }
           ]
         },
@@ -1260,7 +1260,7 @@
           "vars": [
             {
               "name": "MissPercent",
-              "value": 55.0
+              "value": 60.0
             }
           ]
         }
@@ -1277,7 +1277,7 @@
       "effects": [
         {
           "name": "AD",
-          "value": 20.0
+          "value": 15.0
         }
       ]
     },
@@ -1464,7 +1464,7 @@
       "effects": [
         {
           "name": "LifeSteal",
-          "value": 50
+          "value": 40
         }
       ]
     },
@@ -1627,7 +1627,7 @@
     {
       "id": 35,
       "name": "Locket of the Iron Solari",
-      "desc": "On start of combat, the wearer and the champions two spaces to the left and right of the wearer gain a shield of @ShieldValue@ for 6 seconds",
+      "desc": "On start of combat, the wearer and the champions two spaces to the left and right of the wearer gain a shield of @ShieldValue@ for 7 seconds",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_LocketOfTheIronSolari.TFT.dds",
       "from": [
         "3",
@@ -1636,7 +1636,7 @@
       "effects": [
         {
           "name": "ShieldValue",
-          "value": 250.0
+          "value": 300.0
         }
       ]
     },
@@ -1659,7 +1659,7 @@
     {
       "id": 37,
       "name": "Morellonomicon",
-      "desc": "Spells deal burn damage equal to @BurnPercent@% of the enemy's maximum health over 10 seconds and prevent healing",
+      "desc": "Spells deal burn damage equal to @BurnPercent@% of the enemy's maximum health over 10 seconds and reduce healing by 80%",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Morellonomicon.TFT.dds",
       "from": [
         "3",
@@ -1755,7 +1755,7 @@
       "effects": [
         {
           "name": "HealthRestore",
-          "value": 1500.0
+          "value": 1200.0
         }
       ]
     },
@@ -1798,14 +1798,14 @@
       "effects": [
         {
           "name": "2426EA7E",
-          "value": 20.0
+          "value": 33.0
         }
       ]
     },
     {
       "id": 57,
       "name": "Red Buff",
-      "desc": "Attacks deal @BurnPercent@% burn damage over 10 seconds and prevent healing",
+      "desc": "Attacks deal @BurnPercent@% burn damage over 10 seconds and reduce healing by 80%",
       "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/57.png",
       "from": [
         "5",
@@ -1869,7 +1869,7 @@
       "effects": [
         {
           "name": "BanishDuration",
-          "value": 5.0
+          "value": 6.0
         }
       ]
     },
