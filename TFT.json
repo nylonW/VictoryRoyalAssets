@@ -830,7 +830,7 @@
       ]
     },
     {
-      "name": "Hextechs",
+      "name": "Hextech",
       "desc": "Throw a bomb at an enemy unit with an item, and disables all items for 8 seconds.<br><br><row>(2) 1 hex radius</row><br>(4) 2 hex radius",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Elementalist.dds",
       "effects": [
