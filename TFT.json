@@ -37,6 +37,19 @@
       ]
     },
     {
+      "name": "Kai'Sa",
+      "cost": 5,
+      "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Anivia.dds",
+      "abilityName": "Killer Instinct",
+      "abilityDesc": "Kai’Sa dashes to the furthest enemy unit, shielding herself and gaining attack speed for 3 seconds.",
+      "abilityIcon": "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds",
+      "traits": [
+        "Void",
+        "Ranger",
+        "Assassin"
+      ]
+    },
+    {
       "name": "Rek'Sai",
       "cost": 2,
       "splash": "ASSETS/UX/TFT/ChampionSplashes/TFT_Reksai.dds",
@@ -1373,10 +1386,23 @@
       ]
     },
     {
+      "id": 9,
+      "name": "Sparring Gloves",
+      "desc": "+10% Critical Strike chance and +10% chance to Dodge",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/9.png",
+      "from": [],
+      "effects": [
+        {
+          "name": "FE9818EF",
+          "value": 5.0
+        }
+      ]
+    },
+    {
       "id": 11,
-      "name": "Infinity Edge",
-      "desc": "Critical Strikes deal +@CriticalStrikeAmp@% damage",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
+      "name": "Deathblade",
+      "desc": "On a kill or assist, gain an additional 15 Attack Damage until end of combat (Stacks infinitely).",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/11.png",
       "from": [
         "1",
         "1"
@@ -1384,15 +1410,31 @@
       "effects": [
         {
           "name": "CriticalStrikeAmp",
-          "value": 200.0
+          "value": 150.0
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Infinity Edge",
+      "desc": "Critical Strikes deal +@CriticalStrikeAmp@% damage, +20% Critical Strike chance",
+      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfinityEdge.TFT.dds",
+      "from": [
+        "1",
+        "9"
+      ],
+      "effects": [
+        {
+          "name": "CriticalStrikeAmp",
+          "value": 150.0
         }
       ]
     },
     {
       "id": 12,
-      "name": "Sword of the Divine",
-      "desc": "Each second, the wearer has a @ChanceToProc@% chance to gain 100% Critical Strike",
-      "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds",
+      "name": "Giant Slayer",
+      "desc": "Attacks deal an additional 5% enemy max Health as True Damage.",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/12.png",
       "from": [
         "1",
         "2"
@@ -1417,6 +1459,134 @@
         {
           "name": "OmniVamp",
           "value": 25.0
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Hand of Justice",
+      "desc": "On round start, either gain 40% more damage or 40 life on hit.",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/94.png",
+      "from": [
+        "9",
+        "4"
+      ],
+      "effects": [
+        {
+          "name": "OmniVamp",
+          "value": 25.0
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Iceborne Gauntlet",
+      "desc": "On dodge, create an expandable zone that lowers Attack Speed by 35%.",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/95.png",
+      "from": [
+        "9",
+        "5"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Jeweled Gauntlet",
+      "desc": "Your spells can crit",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/93.png",
+      "from": [
+        "9",
+        "3"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Mittens",
+      "desc": "This champ is also a Yordle",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/98.png",
+      "from": [
+        "9",
+        "8"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Quicksilver",
+      "desc": "Dodge next CC. 5 seconds cooldown.",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/96.png",
+      "from": [
+        "9",
+        "6"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Repeating Crossbow",
+      "desc": "On death, this jumps to an allied champion and grants an additional 20% - Attack Speed & Critical Strike chance.",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/92.png",
+      "from": [
+        "9",
+        "2"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Thief's Gloves",
+      "desc": "This item takes all three item slots. On round begin, copy two random items.",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/99.png",
+      "from": [
+        "9",
+        "9"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Trap Claw",
+      "desc": "On combat begin, gain a spell shield. When it breaks, stun the champion who broke the shield.",
+      "icon": "https://raw.githubusercontent.com/nylonW/VictoryRoyalAssets/master/TFT/Items/97.png",
+      "from": [
+        "9",
+        "7"
+      ],
+      "effects": [
+        {
+          "name": "ManaPercentRestore",
+          "value": 15
         }
       ]
     },
