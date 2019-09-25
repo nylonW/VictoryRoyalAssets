@@ -704,7 +704,7 @@
     },
     {
       "name": "Glacial",
-      "desc": "Attacks from Glacials have a chance to stun for @StunDuration@s<br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Stun<br>(4) 35% Chance to Stun<br>(6) 45% Chance to Stun",
+      "desc": "Attacks from Glacials have a chance to stun for 1.5s<br><br><expandRow>(@MinUnits@) 20% Chance to Stun<br>(4) 33% Chance to Stun<br>(6) 50% Chance to Stun",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Glacial.dds",
       "effects": [
         {
@@ -712,11 +712,11 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 25.0
+              "value": 20.0
             },
             {
               "name": "StunDuration",
-              "value": 2.0
+              "value": 1.5
             }
           ]
         },
@@ -725,11 +725,11 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 35.0
+              "value": 33.0
             },
             {
               "name": "StunDuration",
-              "value": 2.0
+              "value": 1.5
             }
           ]
         },
@@ -796,7 +796,7 @@
             },
             {
               "name": "Heal",
-              "value": 25.0
+              "value": 30.0
             }
           ]
         },
@@ -809,7 +809,7 @@
             },
             {
               "name": "Heal",
-              "value": 35.0
+              "value": 30.0
             }
           ]
         }
@@ -913,7 +913,7 @@
     },
     {
       "name": "Shapeshifter",
-      "desc": "Shapeshifters gain bonus maximum Health when they transform<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health<br><br><expandRow>(6) 120% Bonus Maximum Health",
+      "desc": "Shapeshifters gain bonus maximum Health when they transform<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health<br><br><expandRow>(6) 100% Bonus Maximum Health",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Shapeshifter.dds",
       "effects": [
         {
@@ -929,7 +929,7 @@
     },
     {
       "name": "Ninja",
-      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains 50 AD & AP</row><br><row>(4) All Ninjas gain 70 AD & AP",
+      "desc": "The Ninja Trait is only active when you have exactly 1 or 4 Ninjas<br><br><row>(1) Ninja gains 50 AD & AP</row><br><row>(4) All Ninjas gain 80 AD & AP",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Ninja.dds",
       "effects": [
         {
@@ -954,7 +954,7 @@
     },
     {
       "name": "Dragon",
-      "desc": "<row>(@MinUnits@) Dragons are immune to 83% of Magic damage</row>",
+      "desc": "<row>(@MinUnits@) Dragons are immune to 75% of Magic damage</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Dragon.dds",
       "effects": [
         {
@@ -965,7 +965,7 @@
     },
     {
       "name": "Void",
-      "desc": "<row>(@MinUnits@) Void units deal True Damage</row>",
+      "desc": "(2) One random void champion deals true damage</row><br><row>(4) All void champions deal true damage</row>",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Void.dds",
       "effects": [
         {
@@ -1080,7 +1080,7 @@
           "vars": [
             {
               "name": "ProcPercent",
-              "value": 30.0
+              "value": 25.0
             },
             {
               "name": "92B5A83E",
@@ -1231,7 +1231,7 @@
     },
     {
       "name": "Assassin",
-      "desc": "Assassins leap to the farthest enemy at the start of combat <br><br>Assassins deal additional Critical Strike Damage<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage and 10% Crit Chance</expandRow><br>(6) +150% Critical Strike Damage and 25% Crit Chance",
+      "desc": "Assassins leap to the farthest enemy at the start of combat <br><br>Assassins deal additional Critical Strike Damage<br><br><expandRow>(@MinUnits@) +75% Critical Strike Damage and 10% Crit Chance</expandRow><br>(6) +150% Critical Strike Damage and 20% Crit Chance</expandRow><br>(6) +225% Critical Strike Damage and 30% Crit Chanc",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Assassin.dds",
       "effects": [
         {
@@ -1256,7 +1256,7 @@
     },
     {
       "name": "Yordle",
-      "desc": "Attacks against ally Yordles have a chance to miss (Also dodges On-hit effects)<br><expandRow>(@MinUnits@) @MissPercent@% Chance to Miss</expandRow><br>(6) 60% Chance to Miss",
+      "desc": "Attacks against ally Yordles have a chance to miss (Also dodges On-hit effects)<br><expandRow>(3) 30% Chance to Miss</expandRow><br>(6) 60% Chance to Miss</expandRow><br>(9) 90% Chance to Miss",
       "icon": "ASSETS/UX/TraitIcons/Trait_Icon_Yordle.dds",
       "effects": [
         {
@@ -1668,7 +1668,7 @@
     {
       "id": 22,
       "name": "Rapid Firecannon",
-      "desc": "Wearer's attacks cannot be dodged. Attack Range is doubled",
+      "desc": "Attack Range is doubled",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RapidFirecannon.TFT.dds",
       "from": [
         "2",
@@ -1738,7 +1738,7 @@
     {
       "id": 27,
       "name": "Titanic Hydra",
-      "desc": "Attacks deal @MaxHealth@% of the wearer's max Health as splash damage",
+      "desc": "Attacks deal @MaxHealth@% of the wearer's max Health to target and adjacent enemies behind them",
       "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TitanicHydra.TFT.dds",
       "from": [
         "2",
@@ -1747,7 +1747,7 @@
       "effects": [
         {
           "name": "MaxHealth",
-          "value": 10.0
+          "value": 3.0
         }
       ]
     },
@@ -1893,7 +1893,7 @@
       "effects": [
         {
           "name": "AttackSpeedSlow",
-          "value": 20
+          "value": 35.0
         }
       ]
     },
@@ -2023,7 +2023,7 @@
       "effects": [
         {
           "name": "MagicReduction",
-          "value": 83.0
+          "value": 75.0
         }
       ]
     },
