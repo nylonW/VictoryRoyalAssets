@@ -1,10 +1,10 @@
 {
     "items": [
         {
-            "desc": "Grants +@APPercentAmp@% Spell Power Amplification.<br><br>(All sources of Spell Power are @APPercentAmp@% more effective)",
+            "desc": "Grants +@AP@% Spell Power Amplification.<br><br>(All sources of Spell Power are @APPercentAmp@% more effective)",
             "effects": {
                 "AP": 40.0,
-                "{ce132611}": 50.0
+                "APPercentAmp": 50.0
             },
             "from": [
                 3,
@@ -19,7 +19,7 @@
             "effects": {
                 "AD": 15.0,
                 "CritChance": 20.0,
-                "{eac3d5c4}": 100.0
+                "CriticalStrikeAmp": 100.0
             },
             "from": [
                 1,
@@ -45,7 +45,7 @@
             "name": "Frozen Heart"
         },
         {
-            "desc": "The wearer is also Light.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also Light.",
             "effects": {
                 "MagicResist": 25.0
             },
@@ -63,8 +63,8 @@
                 "MagicResist": 25.0,
                 "Mana": 20.0,
                 "SilenceDuration": 4.0,
-                "{2275757b}": 20.0,
-                "{4516a18d}": 4.0
+                "ChanceOnHitToSilence": 20.0,
+                "SilenceDuration": 4.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hush.dds",
@@ -72,10 +72,10 @@
             "name": "Hush"
         },
         {
-            "desc": "When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by @CostIncrease@% until they cast.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by @CostIncrease@% until they cast.",
             "effects": {
                 "Armor": 25.0,
-                "{4516a18d}": 60.0,
+                "CostIncrease": 60.0,
                 "{a861afa0}": 40.0,
                 "{c4b5579c}": 20.0
             },
@@ -106,7 +106,7 @@
             "name": "Redemption"
         },
         {
-            "desc": "The wearer is also a Warden.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also a Warden.",
             "effects": {
                 "Armor": 25.0
             },
@@ -119,7 +119,7 @@
             "name": "Warden's Mail"
         },
         {
-            "desc": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for @BanishDuration@ seconds.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for @BanishDuration@ seconds.",
             "effects": {
                 "Health": 200.0,
                 "MagicResist": 25.0,
@@ -144,7 +144,7 @@
             "name": "Ocean Hex"
         },
         {
-            "desc": "The wearer is also a Mage.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also a Mage.",
             "effects": {
                 "Mana": 20.0
             },
@@ -157,7 +157,7 @@
             "name": "Mages Cap"
         },
         {
-            "desc": "The wearer is also a Blademaster.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also a Blademaster.",
             "effects": {
                 "AS": 30.0
             },
@@ -244,7 +244,7 @@
             "name": "Dragon's Claw"
         },
         {
-            "desc": "Critical hits against the wearer deal normal damage instead.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "Critical hits against the wearer deal normal damage instead.",
             "effects": {
                 "AS": 15.0,
                 "Armor": 25.0
@@ -297,7 +297,7 @@
             "name": "Thornmail"
         },
         {
-            "desc": "The wearer gains the Celestial trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Celestial trait.",
             "effects": {
                 "MagicResist": 25.0
             },
@@ -310,7 +310,7 @@
             "name": "Celestial Orb"
         },
         {
-            "desc": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal @1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@ %i:star% magic damage to all nearby enemies (once every @ICD@ seconds).",
+            "desc": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal @1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@ ⭐ magic damage to all nearby enemies (once every @ICD@ seconds).",
             "effects": {
                 "Armor": 50.0,
                 "{156febb8}": 200.0,
@@ -371,7 +371,7 @@
             "name": "Catalyst"
         },
         {
-            "desc": "The wearer is also an Assassin.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also an Assassin.",
             "effects": {
                 "AD": 15.0
             },
@@ -394,7 +394,7 @@
             "name": "Cloud Hex"
         },
         {
-            "desc": "The wearer gains the Demolitionist trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Demolitionist trait.",
             "effects": {
                 "AP": 20.0
             },
@@ -442,16 +442,16 @@
             "name": "Inferno Hex"
         },
         {
-            "desc": "Wearer's Basic Attacks burn the target on-hit, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and reducing healing by @GrievousWoundsPercent@% for the duration of the burn.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "Wearer's Basic Attacks burn the target on-hit, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and reducing healing by @GrievousWoundsPercent@% for the duration of the burn.",
             "effects": {
                 "Armor": 25.0,
                 "Health": 200.0,
                 "MonsterCap": 100.0,
-                "{2161bfa2}": 50.0,
-                "{57706a69}": 27.0,
+                "GrievousWoundsPercent": 50.0,
+                "BurnPercent": 27.0,
                 "{6df27940}": 1.0,
                 "{8bfdb3fa}": 2.0,
-                "{97e52ce8}": 10.0
+                "BurnDuration": 10.0
             },
             "from": [
                 5,
@@ -462,7 +462,7 @@
             "name": "Red Buff"
         },
         {
-            "desc": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>No stacking limit.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>No stacking limit.",
             "effects": {
                 "{48ea2af8}": 7.0,
                 "{98ac43ce}": 50.0
@@ -584,7 +584,7 @@
             "name": "Titan's Resolve"
         },
         {
-            "desc": "The wearer gains the Dark Star trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Dark Star trait.",
             "effects": {
                 "CritChance": 10.0,
                 "{c4b5579c}": 10.0
@@ -598,7 +598,7 @@
             "name": "Dark Star's Heart"
         },
         {
-            "desc": "The wearer gains the Protector trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Protector trait.",
             "effects": {
                 "Health": 200.0
             },
@@ -611,7 +611,7 @@
             "name": "Protector's Chestguard"
         },
         {
-            "desc": "The wearer is also Glacial.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also Glacial.",
             "effects": {
                 "Health": 200.0
             },
@@ -640,7 +640,7 @@
             "name": "Runaan's Hurricane"
         },
         {
-            "desc": "Wearer is also a Yordle<br>Extra +10% Critical Strike Chance, +10% Dodge Chance<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "Wearer is also a Yordle<br>Extra +10% Critical Strike Chance, +10% Dodge Chance",
             "effects": {
                 "CritChance": 20.0,
                 "{c4b5579c}": 20.0
@@ -651,7 +651,7 @@
             "name": "Mittens"
         },
         {
-            "desc": "The wearer gains the Infiltrator trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Infiltrator trait.",
             "effects": {
                 "AS": 15.0
             },
@@ -700,7 +700,7 @@
             "name": "Bloodthirster"
         },
         {
-            "desc": "Extra %i:scaleArmor% +@Armor@<br>Wearer is also a Knight<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "Extra %i:scaleArmor% +@Armor@<br>Wearer is also a Knight",
             "effects": {
                 "Armor": 40.0
             },
@@ -710,7 +710,7 @@
             "name": "Knight's Vow"
         },
         {
-            "desc": "The wearer is also Glacial.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also Glacial.",
             "effects": {
                 "Health": 400.0
             },
@@ -720,7 +720,7 @@
             "name": "Frozen Mallet"
         },
         {
-            "desc": "The wearer is also an Inferno.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also an Inferno.",
             "effects": {
                 "AP": 20.0
             },
@@ -733,15 +733,15 @@
             "name": "Inferno's Cinder"
         },
         {
-            "desc": "When the wearer dies, a Construct with @1StarZombieHealth@/@2StarZombieHealth@/@3StarZombieHealth@ %i:star% Health arises to continue the fight.",
+            "desc": "When the wearer dies, a Construct with @1StarZombieHealth@/@2StarZombieHealth@/@3StarZombieHealth@ ⭐ Health arises to continue the fight.",
             "effects": {
                 "AS": 15.0,
                 "Health": 200.0,
                 "{0707495a}": 70.0,
-                "{37b0144c}": 1000.0,
-                "{86646c65}": 2000.0,
+                "1StarZombieHealth": 1000.0,
+                "2StarZombieHealth": 2000.0,
                 "{f207284b}": 0.75,
-                "{f6edd39e}": 3000.0
+                "3StarZombieHealth": 3000.0
             },
             "from": [
                 2,
@@ -763,7 +763,7 @@
             "name": "Hextech Chestguard"
         },
         {
-            "desc": "The wearer is also a Berserker.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also a Berserker.",
             "effects": {
                 "CritChance": 10.0,
                 "{c4b5579c}": 10.0
@@ -773,11 +773,11 @@
                 8
             ],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_BerserkerAxe.dds",
-            "id": 89,
+            "id": -89,
             "name": "Berserker's Axe"
         },
         {
-            "desc": "Extra %i:scaleMana% +@Mana@<br>Wearer is also a Demon<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "Extra %i:scaleMana% +@Mana@<br>Wearer is also a Demon",
             "effects": {
                 "Mana": 40.0
             },
@@ -802,7 +802,7 @@
             "name": "Spear of Shojin"
         },
         {
-            "desc": "The wearer is also an Assassin.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also an Assassin.",
             "effects": {
                 "AD": 30.0
             },
@@ -812,16 +812,16 @@
             "name": "Youmuu's Ghostblade"
         },
         {
-            "desc": "When the wearer casts their spell, the first target dealt magic damage and up to @ExtraBounces@ nearby enemies are dealt an additional @1StarDamage@/@2StarDamage@/@3StarDamage@ %i:star% magic damage.",
+            "desc": "When the wearer casts their spell, the first target dealt magic damage and up to @ExtraBounces@ nearby enemies are dealt an additional @1StarDamage@/@2StarDamage@/@3StarDamage@ ⭐ magic damage.",
             "effects": {
                 "AP": 20.0,
                 "Mana": 15.0,
-                "{27b09915}": 150.0,
-                "{337a0cca}": 4.0,
-                "{844e604c}": 175.0,
+                "1StarDamage": 150.0,
+                "ExtraBounces": 4.0,
+                "2StarDamage": 175.0,
                 "{93d13af6}": 3.0,
                 "{9b1e8f37}": 2.0,
-                "{f5220527}": 225.0
+                "3StarDamage": 225.0
             },
             "from": [
                 3,
@@ -842,7 +842,7 @@
             "name": "Spatula"
         },
         {
-            "desc": "The wearer gains the Rebel trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Rebel trait.",
             "effects": {
                 "Armor": 25.0
             },
@@ -855,15 +855,15 @@
             "name": "Rebel Medal"
         },
         {
-            "desc": "When combat begins, the wearer and all allies within @HexRange@ hexes in the same row gain a shield that blocks @1StarShieldValue@/@2StarShieldValue@/@3StarShieldValue@ %i:star% damage for @ShieldDuration@ seconds.",
+            "desc": "When combat begins, the wearer and all allies within @HexRange@ hexes in the same row gain a shield that blocks @1StarShieldValue@/@2StarShieldValue@/@3StarShieldValue@ ⭐ damage for @ShieldDuration@ seconds.",
             "effects": {
                 "AP": 20.0,
                 "Armor": 25.0,
                 "ShieldDuration": 8.0,
-                "{0d46330d}": 275.0,
-                "{6fb9af6a}": 250.0,
-                "{829e6cec}": 350.0,
-                "{9b1e8f37}": 2.0
+                "1StarShieldValue": 275.0,
+                "2StarShieldValue": 250.0,
+                "3StarShieldValue": 350.0,
+                "HexRange": 2.0
             },
             "from": [
                 3,
@@ -874,7 +874,7 @@
             "name": "Locket of the Iron Solari"
         },
         {
-            "desc": "Extra %i:scaleAP% +@AP@<br>Wearer is also a Sorcerer<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "Extra +@AP@ Wearer is also a Sorcerer",
             "effects": {
                 "AP": 40.0
             },
@@ -884,7 +884,7 @@
             "name": "Yuumi"
         },
         {
-            "desc": "When the wearer deals damage with their spell, they burn the target, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and reducing healing by @GrievousWoundsPercent@% for the duration of the burn.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "When the wearer deals damage with their spell, they burn the target, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and reducing healing by @GrievousWoundsPercent@% for the duration of the burn.",
             "effects": {
                 "AP": 20.0,
                 "Health": 200.0,
@@ -956,7 +956,7 @@
             "name": "Zhonya's Hourglass"
         },
         {
-            "desc": "The wearer is also a Blademaster.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is also a Blademaster.",
             "effects": {
                 "AS": 15.0
             },
@@ -969,7 +969,7 @@
             "name": "Blade of the Ruined King"
         },
         {
-            "desc": "The wearer gains the Star Guardian trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Star Guardian trait.",
             "effects": {
                 "Mana": 15.0
             },
@@ -982,12 +982,12 @@
             "name": "Star Guardian's Charm"
         },
         {
-            "desc": "When the wearer inflicts a critical hit, the target's Armor is reduced by @ArmorReductionPercent@% for @ArmorBreakDuration@ seconds. This effect does not stack.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "When the wearer inflicts a critical hit, the target's Armor is reduced by @ArmorReductionPercent@% for @ArmorBreakDuration@ seconds. This effect does not stack.",
             "effects": {
                 "AS": 15.0,
                 "CritChance": 20.0,
-                "{5079c7a2}": 90.0,
-                "{cc9fefa7}": 3.0
+                "ArmorReductionPercent": 90.0,
+                "ArmorBreakDuration": 3.0
             },
             "from": [
                 2,
@@ -998,7 +998,7 @@
             "name": "Last Whisper"
         },
         {
-            "desc": "Your spells can inflict critical hits.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "Your spells can inflict critical hits.",
             "effects": {
                 "AP": 20.0,
                 "CritChance": 20.0
@@ -1067,7 +1067,7 @@
             "name": "Mortal Reminder"
         },
         {
-            "desc": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>No stacking limit.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>No stacking limit.",
             "effects": {
                 "AS": 15.0,
                 "AttackSpeedPerStack": 30.0,
@@ -1080,7 +1080,7 @@
             "name": "Repeating Crossbow"
         },
         {
-            "desc": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>No stacking limit.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>No stacking limit.",
             "effects": {
                 "AS": 15.0,
                 "AttackSpeedPerStack": 30.0,
@@ -1106,7 +1106,7 @@
             "name": "Force of Nature"
         },
         {
-            "desc": "The wearer is immune to crowd control for the first @SpellShieldDuration@ seconds of combat.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer is immune to crowd control for the first @SpellShieldDuration@ seconds of combat.",
             "effects": {
                 "MagicResist": 25.0,
                 "{a2b76524}": 15.0,
@@ -1167,7 +1167,7 @@
             "name": "Warmog's Armor"
         },
         {
-            "desc": "Every third Basic Attack from the wearer deals @Damage@ magic damage to @1StarBounces@/@2StarBounces@/@3StarBounces@ %i:star% enemies.",
+            "desc": "Every third Basic Attack from the wearer deals @Damage@ magic damage to @1StarBounces@/@2StarBounces@/@3StarBounces@ ⭐ enemies.",
             "effects": {
                 "AS": 15.0,
                 "Damage": 80.0,
@@ -1185,7 +1185,7 @@
             "name": "Statikk Shiv"
         },
         {
-            "desc": "The wearer gains the Blademaster trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+            "desc": "The wearer gains the Blademaster trait.",
             "effects": {
                 "AD": 15.0
             },
