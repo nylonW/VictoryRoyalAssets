@@ -123,7 +123,7 @@
             "effects": {
                 "Health": 200.0,
                 "MagicResist": 25.0,
-                "{510fdb6a}": 5.0
+                "BanishDuration": 5.0
             },
             "from": [
                 6,
@@ -172,7 +172,7 @@
                 "AD": 15.0,
                 "AttackSpeed": 30.0,
                 "Health": 200.0,
-                "{9b1e8f37}": 1.0
+                "HexRange": 1.0
             },
             "from": [
                 1,
@@ -217,9 +217,9 @@
                 "AP": 20.0,
                 "Damage": 250.0,
                 "MagicResist": 25.0,
-                "{9b1e8f37}": 2.0,
-                "{df6f64b9}": 225.0,
-                "{fe079f34}": 50.0
+                "HexRange": 2.0,
+                "ManaRatio": 225.0,
+                "MRShred": 50.0
             },
             "from": [
                 3,
@@ -313,11 +313,11 @@
             "desc": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal @1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@ ⭐ magic damage to all nearby enemies (once every @ICD@ seconds).",
             "effects": {
                 "Armor": 50.0,
-                "{156febb8}": 200.0,
-                "{1ee760be}": 100.0,
+                "3StarAoEDamage": 200.0,
+                "1StarAoEDamage": 100.0,
                 "{6688a0d5}": 100.0,
-                "{73e0fa13}": 2.5,
-                "{a3b999e9}": 140.0
+                "ICD": 2.5,
+                "2StarAoEDamage": 140.0
             },
             "from": [
                 5,
@@ -1140,8 +1140,8 @@
             "effects": {
                 "MagicResist": 25.0,
                 "Mana": 15.0,
-                "{03494ad0}": 10.0,
-                "{9b1e8f37}": 2.0
+                "ManaRestore": 10.0,
+                "HexRange": 2.0
             },
             "from": [
                 6,
