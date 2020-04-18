@@ -4715,7 +4715,7 @@
                 },
                 {
                     "apiName": "SpacePirate",
-                    "desc": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.<br><br><row>(@MinUnits@) @CoinDropChance@% for 1 gold</row><br><row>(@MinUnits@) @CoinDropChance@% for 1 gold and @ItemDropChance@% for a component item</row>",
+                    "desc": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.<br><br><row>(@MinUnits@) 50% for 1 gold</row><br><row>(@MinUnits@) 50% for 1 gold and 20% for a component item</row>",
                     "effects": [
                         {
                             "maxUnits": 3,
@@ -4748,7 +4748,7 @@
                             "minUnits": 2,
                             "style": 3,
                             "variables": {
-                                "{4d7069b1}": 40.0
+                                "CostIncreasePercent": 40.0
                             }
                         }
                     ],
@@ -4757,7 +4757,7 @@
                 },
                 {
                     "apiName": "Infiltrator",
-                    "desc": "Innate: At the start of combat, Infiltrators move to the enemy's backline.<br><br>Infiltrators gain Attack Speed for @Duration@ seconds at the start of combat.<br><br><row>(@MinUnits@) @AttackSpeedPercent@% bonus Attack Speed</row><br><row>(@MinUnits@) @AttackSpeedPercent@% bonus Attack Speed, refreshed on takedown</row><br><row>(@MinUnits@) @AttackSpeedPercent@% bonus Attack Speed, refreshed on takedown</row>",
+                    "desc": "Innate: At the start of combat, Infiltrators move to the enemy's backline.<br><br>Infiltrators gain Attack Speed for @Duration@ seconds at the start of combat.<br><br><row>(@MinUnits@) @AttackSpeedPercent@% bonus Attack Speed</row><br><row>(4) @AttackSpeedPercent@% bonus Attack Speed, refreshed on takedown</row><br><row>(6) @AttackSpeedPercent@% bonus Attack Speed, refreshed on takedown</row>",
                     "effects": [
                         {
                             "maxUnits": 3,
@@ -4834,7 +4834,7 @@
                             "minUnits": 2,
                             "style": 3,
                             "variables": {
-                                "{75994f47}": 15.0
+                                "@PercentDamageIncrease@": 15.0
                             }
                         }
                     ],
