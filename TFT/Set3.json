@@ -1361,7 +1361,7 @@
                         "name": "Aria of Perseverance",
                         "variables": [
                             {
-                                "name": "HealAmount",
+                                "name": "ModifiedHealing",
                                 "value": [
                                     50.0,
                                     100.0,
@@ -3387,7 +3387,7 @@
                         "name": "Wild Cards",
                         "variables": [
                             {
-                                "name": "BaseDamage",
+                                "name": "Damage",
                                 "value": [
                                     0.0,
                                     200.0,
@@ -3611,7 +3611,7 @@
                                 ]
                             },
                             {
-                                "name": "AttackSpeed",
+                                "name": "AS",
                                 "value": [
                                     0.75,
                                     1.0,
@@ -3972,7 +3972,7 @@
                 },
                 {
                     "ability": {
-                        "desc": "Jarvan calls down his standard to a nearby location, granting all nearby allies @ModifiedAS@ Attack Speed for @Duration@ seconds.",
+                        "desc": "Jarvan calls down his standard to a nearby location, granting all nearby allies @ModifiedAS@% Attack Speed for @Duration@ seconds.",
                         "icon": "ASSETS/Characters/JarvanIV/HUD/Icons2D/JarvanIV_DemacianStandard.dds",
                         "name": "Ageless Standard",
                         "variables": [
@@ -4001,7 +4001,7 @@
                                 ]
                             },
                             {
-                                "name": "ASPercent",
+                                "name": "ModifiedAS",
                                 "value": [
                                     0.25,
                                     0.5,
