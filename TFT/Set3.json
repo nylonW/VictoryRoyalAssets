@@ -677,7 +677,7 @@
             "desc": "+@CritChance@% Critical Strike Chance<br>+@DodgeChance@% Dodge Chance",
             "effects": {
                 "CritChance": 10.0,
-                "{c4b5579c}": 10.0
+                "DodgeChance": 10.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SparringGloves.dds",
@@ -832,7 +832,7 @@
             "name": "Luden's Echo"
         },
         {
-            "desc": "It must do <i>something</i>...",
+            "desc": "It must do something...",
             "effects": {
                 "{fe9818ef}": 5.0
             },
