@@ -1095,7 +1095,7 @@
         {
             "desc": "Wearer's team gains +@MaxArmySizeIncrease@ maximum team size.",
             "effects": {
-                "{ec9a04d1}": 1.0
+                "MaxArmySizeIncrease": 1.0
             },
             "from": [
                 8,
@@ -1109,7 +1109,7 @@
             "desc": "The wearer is immune to crowd control for the first @SpellShieldDuration@ seconds of combat.",
             "effects": {
                 "MagicResist": 25.0,
-                "{a2b76524}": 15.0,
+                "SpellShieldDuration": 15.0,
                 "{c4b5579c}": 20.0
             },
             "from": [
@@ -1121,11 +1121,11 @@
             "name": "Quicksilver"
         },
         {
-            "desc": "Contributing to a kill grants +@ADPerStack@ Attack Damage for the remainder of combat.<br><br>This effect can stack any number of times (starting at @StartingStacks@).",
+            "desc": "Contributing to a kill grants +@ADPerStack@ Attack Damage for the remainder of combat.<br><br>This effect can stack any number of times (starting at 1).",
             "effects": {
                 "AD": 30.0,
                 "{ad68ce80}": "null",
-                "{f1d43b01}": 30.0
+                "ADPerStack": 30.0
             },
             "from": [
                 1,
@@ -1156,7 +1156,7 @@
             "effects": {
                 "Health": 400.0,
                 "HealthRegen": 5.0,
-                "{0c90f194}": 150.0
+                "MaxHealthRegenAmount": 150.0
             },
             "from": [
                 7,
@@ -1172,9 +1172,9 @@
                 "AS": 15.0,
                 "Damage": 80.0,
                 "Mana": 15.0,
-                "{12a15e9e}": 4.0,
-                "{440f813d}": 3.0,
-                "{79e2ec7b}": 5.0
+                "2StarBounces": 4.0,
+                "1StarBounces": 3.0,
+                "3StarBounces": 5.0
             },
             "from": [
                 2,
@@ -1202,7 +1202,7 @@
             "effects": {
                 "AD": 15.0,
                 "AP": 20.0,
-                "{ad16f688}": 25.0
+                "OmniVamp": 25.0
             },
             "from": [
                 1,
@@ -1215,7 +1215,7 @@
         {
             "desc": "At the end of each planning phase this champion permanently gains @HPPerRound@ max health.",
             "effects": {
-                "{1bb18b94}": 30.0
+                "HPPerRound": 30.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hex_Mountain.TFT_EnchantedHexes.dds",
