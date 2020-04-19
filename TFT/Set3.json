@@ -54,7 +54,7 @@
                 8
             ],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_TalismanofLight.dds",
-            "id": 68,
+            "id": -68,
             "name": "Talisman of Light"
         },
         {
@@ -380,7 +380,7 @@
                 8
             ],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.dds",
-            "id": 18,
+            "id": -18,
             "name": "Youmuu's Ghostblade"
         },
         {
@@ -620,7 +620,7 @@
                 7
             ],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.dds",
-            "id": 78,
+            "id": -78,
             "name": "Frozen Mallet"
         },
         {
@@ -729,7 +729,7 @@
                 8
             ],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_InfernoCinder.dds",
-            "id": 38,
+            "id": -38,
             "name": "Inferno's Cinder"
         },
         {
